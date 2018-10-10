@@ -59,7 +59,7 @@ namespace XmlParser
             Console.ReadKey();
         }
 
-        // TODO: testing git.
+        // TODO: 
         private List<KeyValuePair<string, string>> GetValuesAndPaths()
         {
             List<KeyValuePair<string, string>> values = new List<KeyValuePair<string, string>>();
@@ -93,7 +93,11 @@ namespace XmlParser
             return values;
         }
 
-        // get absolute path of leaf node
+        /// <summary>
+        /// Get absolute path from root node to the given XElement
+        /// </summary>
+        /// <param name="element">Leaf node of type XElement</param>
+        /// <returns>Absolute path from the root element to the leaf node</returns>
         private string GetPath(XElement element)
         {
             XElement parent = element.Parent;
@@ -104,7 +108,11 @@ namespace XmlParser
             return GetPath(parent) + "/" + element.Name.LocalName;
         }
 
-
+        /// <summary>
+        /// Get list of all leaf nodes (which hold values we are looking for) of a given root element.
+        /// </summary>
+        /// <param name="elements">Root element of type XElement</param>
+        /// <returns>List of all leaf nodes.</returns>
         private List<XElement> GetListOfNodes(XElement elements)
         {
             List<XElement> list = new List<XElement>();
@@ -126,7 +134,9 @@ namespace XmlParser
             return list;
         }
 
-
+        /// <summary>
+        /// Concrete implementation of logging methods.
+        /// </summary>
         protected override void LogMessage(string message, params object[] args)
         {
             if (Log == null)
