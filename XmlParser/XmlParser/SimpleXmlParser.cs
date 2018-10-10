@@ -23,7 +23,7 @@ namespace XmlParser
         /// Class extending from XmlParser abstract class, 
         /// </summary>
         /// <remarks>
-        /// Class generates XDocument with the help of ReadXml class, parses data, blabla
+        /// Class generates XDocument with the help of ReadXml class, parses data and sets the output property
         /// </remarks>
         public override void ParseDocument(string filePath)
         {
@@ -59,7 +59,7 @@ namespace XmlParser
             Console.ReadKey();
         }
 
-        // TODO: 
+        // TODO: testing git.
         private List<KeyValuePair<string, string>> GetValuesAndPaths()
         {
             List<KeyValuePair<string, string>> values = new List<KeyValuePair<string, string>>();
