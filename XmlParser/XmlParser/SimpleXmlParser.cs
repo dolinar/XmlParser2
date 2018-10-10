@@ -12,12 +12,6 @@ namespace XmlParser
 {
     public class SimpleXmlParser : XmlParser
     {
-        public enum NodeTypes
-        {
-            HasChildren,
-            IsNode,
-            IsAttribute
-        }
 
         /// <summary>
         /// Class extending from XmlParser abstract class, 
@@ -59,7 +53,7 @@ namespace XmlParser
             Console.ReadKey();
         }
 
-        // TODO: 
+        // TODO: List<KeyValuePair> is not good enough.
         private List<KeyValuePair<string, string>> GetValuesAndPaths()
         {
             List<KeyValuePair<string, string>> values = new List<KeyValuePair<string, string>>();
@@ -156,7 +150,13 @@ namespace XmlParser
                 return;
             Log.LogError(String.Format("ERROR: {0}\n", message));
         }
-
-
+    }
+    /// <summary>
+    /// Each XML node is one of two types - it has descendants (HasChildren) or it does not (IsAttribute) 
+    /// </summary>
+    public enum NodeTypes
+    {
+        HasChildren,
+        IsAttribute
     }
 }
