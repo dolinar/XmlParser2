@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <report caption="Poročilo Audit Trail" subcaption="Poročilo mora biti arhivirano">
+    <metadata>
+      <machine>C 2206 - 0900137</machine>
+      <user>Uporabnik: Systemuser 'taskScheduler' (taskScheduler)</user>
+      <timezone>utc</timezone>
+      <date>2018-06-21 05:21:07</date>
+    </metadata>
+    <auditFilterData>
+      <dataEntry>
+        <infoCol1 test="1" rawValue="filter">Filter:  </infoCol1>
+        <infoCol2>Alarmi - Spremembe vrednosti - Varnost - Uporabniška dejanja</infoCol2>
+      </dataEntry>
+      <dataEntry>
+        <infoCol1 rawValue="startTime">Čas začetka: </infoCol1>
+        <infoCol2 rawValue="2018-06-20 17:10:00.000000">2018-06-20 17:10:00</infoCol2>
+      </dataEntry>
+      <dataEntry>
+        <infoCol1 rawValue="endTime">Čas konca</infoCol1>
+        <infoCol2 rawValue="2018-06-20 17:19:59.999999">2018-06-20 17:19:59</infoCol2>
+      </dataEntry>
+      <dataEntry>
+        <infoCol1 rawValue="dateSorting">Razvrstitev po datumu: </infoCol1>
+        <infoCol2 rawValue="ascending">Naraščajoče</infoCol2>
+      </dataEntry>
+      <dataEntry>
+        <infoCol1 rawValue="user">Uporabnik: </infoCol1>
+        <infoCol2>Vse</infoCol2>
+      </dataEntry>
+      <dataEntry>
+        <infoCol1 rawValue="hint">hint: </infoCol1>
+        <infoCol2>Brez podatkov v tem časovnem obdobju</infoCol2>
+      </dataEntry>
+    </auditFilterData>
+    <auditSecurity/>
+    <auditChange/>
+    <auditAlarm/>
+    <auditUserAction/>
+  </report>
+</root>

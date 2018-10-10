@@ -1,0 +1,6 @@
+C:\Users\dor\source\repos\xmlTest\XmlParser\bin\Debug\XmlParser.dll
+C:\Users\dor\source\repos\xmlTest\XmlParser\bin\Debug\XmlParser.pdb
+C:\Users\dor\source\repos\xmlTest\XmlParser\obj\Debug\XmlParser.csprojAssemblyReference.cache
+C:\Users\dor\source\repos\xmlTest\XmlParser\obj\Debug\XmlParser.csproj.CoreCompileInputs.cache
+C:\Users\dor\source\repos\xmlTest\XmlParser\obj\Debug\XmlParser.dll
+C:\Users\dor\source\repos\xmlTest\XmlParser\obj\Debug\XmlParser.pdb

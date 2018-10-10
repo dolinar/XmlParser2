@@ -1,0 +1,16 @@
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\xmlTest.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\xmlTest.pdb
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\XmlParser.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\XmlParser.pdb
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\dor\source\repos\xmlTest\xmlTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\dor\source\repos\xmlTest\xmlTest\obj\Debug\xmlTest.csprojAssemblyReference.cache
+C:\Users\dor\source\repos\xmlTest\xmlTest\obj\Debug\xmlTest.csproj.CoreCompileInputs.cache
+C:\Users\dor\source\repos\xmlTest\xmlTest\obj\Debug\xmlTest.csproj.CopyComplete
+C:\Users\dor\source\repos\xmlTest\xmlTest\obj\Debug\xmlTest.dll
+C:\Users\dor\source\repos\xmlTest\xmlTest\obj\Debug\xmlTest.pdb
