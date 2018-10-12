@@ -9,7 +9,7 @@ namespace XmlParser.Parser
         public void ParseDocument(IParserFactory parserFactory, string filePath)
         {
             IParser parser = parserFactory.CreateParser();
-            parser.ParseDocument(filePath);
+            parser.DoSomething(filePath);
         }
     }
 }

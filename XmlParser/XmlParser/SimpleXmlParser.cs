@@ -19,42 +19,41 @@ namespace XmlParser
         /// <remarks>
         /// Class generates XDocument with the help of ReadXml class, parses data and sets the output property
         /// </remarks>
-        public override void ParseDocument(string filePath)
+        public override void DoSomething(string path)
         {
-            // initialize debug logging
-            Log = LoggerFactory.Get(LoggerType.DEBUG);
-
-            // generate XDocument with ReadXml class. 
-            // path is provided in the Program.cs and is passed to this method via ParserBuilder and abstract factory.
-            FileObject<XDocument> readXml = new ReadXml { StringPath = filePath };
-            Document = readXml.ReadFile();
-            LogMessage("Reading XML file");
-
-
-            // make sure the generated XML document is not null
-            if (Document == null)
-                throw new ArgumentNullException();
-            LogMessage("XML file read, document is not null.");
-
-            Document = XDocument.Parse(Document.ToString());
-            LogMessage("Document parsed");
-
-            ParsedData = GetValuesAndPaths();
-
-            foreach (var e in ParsedData)
+            using (Log = LoggerFactory.Get(LoggerType.DEBUG))
             {
-                Console.WriteLine("(" + e.Key + ")      (" + e.Value + ")");
+                FilePath = path;
+                base.SetDocument();
+                base.ParseDocument();
+
+                //LogMessage("XML file read, document is not null.");
+                LogMessage("Starting parsing Document");
+                Document = XDocument.Parse(Document.ToString());
+
+                LogMessage("Starting getting Values");
+                // 
+                ParsedData = GetNamesAndPaths();
+
+                foreach (var e in ParsedData)
+                {
+                    Console.WriteLine(e.Key + "  ---  " + GetValueFromPath(e.Value));
+                }
+
+                Console.ReadKey();
+                
             }
-            //var e = Document.XPathSelectElements("root/report/metadata/machine");
-            //foreach (var element in e)
-            //{
-            //    LogMessage(element.Name.LocalName + "      " + element.Value);
-            //}
-            Console.ReadKey();
+        }
+
+        private string GetValueFromPath(string path)
+        {
+            var element = Document.XPathSelectElement(path);
+            return element.Value;
+
         }
 
         // TODO: List<KeyValuePair> is not good enough.
-        private List<KeyValuePair<string, string>> GetValuesAndPaths()
+        private List<KeyValuePair<string, string>> GetNamesAndPaths()
         {
             List<KeyValuePair<string, string>> values = new List<KeyValuePair<string, string>>();
 
@@ -67,7 +66,8 @@ namespace XmlParser
                 if (numOfAttributes == 0)
                 {
                     values.Add(new KeyValuePair<string, string>(e.Name.LocalName, GetPath(e)));
-                } else
+                }
+                else
                 {
                     if (numOfAttributes > 1)
                     {
@@ -135,20 +135,20 @@ namespace XmlParser
         {
             if (Log == null)
                 return;
-            Log.LogMessage(String.Format("MESSAGE: {0}" + Environment.NewLine, message));
+            Log.LogMessage(String.Format("MESSAGE: {0}", message));
         }
 
         protected override void LogWarning(string message, params object[] args)
         {
             if (Log == null)
                 return;
-            Log.LogWarning(String.Format("WARNING: {0}\n", message));
+            Log.LogWarning(String.Format("WARNING: {0}", message));
         }
         protected override void LogError(string message, params object[] args)
         {
             if (Log == null)
                 return;
-            Log.LogError(String.Format("ERROR: {0}\n", message));
+            Log.LogError(String.Format("ERROR: {0}", message));
         }
     }
     /// <summary>

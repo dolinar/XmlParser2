@@ -7,6 +7,11 @@ namespace XmlParser
     {
         ILogger Log { get; set; }
 
-        void ParseDocument(string filePath);
+        void SetDocument();
+
+        void ParseDocument();
+
+        void DoSomething(string path);
+
     }
 }

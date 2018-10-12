@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
-using System.Xml;
-using System.Xml.Linq;
 using XmlParser.Logger;
 
-namespace XmlParser
+namespace XmlParser.FileReader
 {
-    public class ReadXml : FileObject<XDocument>
+    class ReadConfig : FileObject<string[]>
     {
-
-        public override XDocument ReadFile()
+        public override string[] ReadFile()
         {
+            List<string> lines = new List<string>();
             using (Log = LoggerFactory.Get(LoggerType.DEBUG))
             {
                 if (StringPath == null)
@@ -27,17 +25,8 @@ namespace XmlParser
                     throw new FileNotFoundException();
                 }
 
-                try
-                {
-                    return XDocument.Load(StringPath);
-                }
-                catch (Exception e)
-                {
-                    // logging
-                    throw;
-                }
+                return File.ReadAllLines(StringPath);
             }
-
         }
     }
 }

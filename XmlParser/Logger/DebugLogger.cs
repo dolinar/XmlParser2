@@ -9,9 +9,7 @@ namespace XmlParser.Logger
 {
     class DebugLogger : ILogger
     {
-        StringBuilder logMessage = new StringBuilder();
-        StringBuilder logWarning = new StringBuilder();
-        StringBuilder logError = new StringBuilder();
+        StringBuilder _log = new StringBuilder();
         public void Dispose()
         {
             Flash();
@@ -19,48 +17,55 @@ namespace XmlParser.Logger
 
         public void Flash()
         {
-            logMessage.Clear();
-            logWarning.Clear();
-            logError.Clear();
+            _log.Clear();
         }
-
-
 
         public void LogMessage(string message, params object[] args)
         {
-            string formatedMessage = string.Format(message, args);
-            logMessage.AppendLine(message);
-            Debug.WriteLine(formatedMessage);
+            log(LogSeverity.MESSAGE, message, args);
         }
 
         public void LogWarning(string message, params object[] args)
         {
-            string formatedMessage = string.Format(message, args);
-            logWarning.AppendLine(message);
-            Debug.WriteLine(formatedMessage);
+            log(LogSeverity.WARNING, message, args);
         }
 
         public void LogError(string message, params object[] args)
         {
+            log(LogSeverity.ERROR, message, args);
+        }
+       
+        private void log(LogSeverity severity, string message, params object[] args)
+        {
+            string severityString = getSeverityString(severity);
             string formatedMessage = string.Format(message, args);
-            logMessage.AppendLine(message);
+            _log.AppendLine($"{severityString}({DateTime.Now}):{formatedMessage}");
             Debug.WriteLine(formatedMessage);
         }
 
+        private static string getSeverityString(LogSeverity severity)
+        {
+            string severityString;
+            switch (severity)
+            {
+                case LogSeverity.MESSAGE:
+                    severityString = "MESSAGE";
+                    break;
+                case LogSeverity.WARNING:
+                    severityString = "WARNING";
+                    break;
+                case LogSeverity.ERROR:
+                    severityString = "ERROR";
+                    break;
+                default:
+                    throw new ArgumentException($"unknown severity {severity.ToString()}");
+            }
+            return severityString;
+        }
 
         public string GetCurrentMessageLog()
         {
-            return logMessage.ToString();
-        }
-
-        public string GetCurrentWarningLog()
-        {
-            return logWarning.ToString();
-        }
-
-        public string GetCurrentErrorLog()
-        {
-            return logError.ToString();
+            return _log.ToString();
         }
     }
 }

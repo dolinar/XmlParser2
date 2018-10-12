@@ -37,7 +37,5 @@ namespace XmlParser.Logger
         /// </summary>
         void Flash();
         string GetCurrentMessageLog();
-        string GetCurrentWarningLog();
-        string GetCurrentErrorLog();
     }
 }

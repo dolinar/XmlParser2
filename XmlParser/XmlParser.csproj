@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileReader\FileObject.cs" />
+    <Compile Include="FileReader\ReadConfig.cs" />
     <Compile Include="XmlParser\IParser.cs" />
     <Compile Include="FileReader\ReadXml.cs" />
     <Compile Include="Logger\DebugLogger.cs" />
