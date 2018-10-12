@@ -13,7 +13,7 @@ namespace Test
         {
             int i = 1;
 
-            string path = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test.xml";
+            string path = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test2.xml";
 
             ParserBuilder pb = new ParserBuilder();
             IParserFactory pf = null;

@@ -32,19 +32,32 @@ namespace XmlParser
                 Document = XDocument.Parse(Document.ToString());
 
                 LogMessage("Starting getting Values");
-                // 
+                // Name of tag + path to the tag
+                // for duplicate tags, tag's attribute is used instead of the name
+                // just hope there is no attribute duplicates.
                 ParsedData = GetNamesAndPaths();
 
+
+                string tagName = "ime_sole";
+                // GetValueFromPath vrne vrednost, ki se nahaja na podani poti
+                // ime_sole  ---  root/sola/ime_sole  ---  FRI
                 foreach (var e in ParsedData)
                 {
-                    Console.WriteLine(e.Key + "  ---  " + GetValueFromPath(e.Value));
+                    if (tagName == e.Key)
+                    {
+                        Console.WriteLine(e.Key + "  ---  " + e.Value + "  ---  " + GetValueFromPath(e.Value));
+                    }
                 }
 
                 Console.ReadKey();
                 
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path">Path that gets us to the wanted value. Path uses / delimeter.</param>
+        /// <returns>Tag value</returns>
         private string GetValueFromPath(string path)
         {
             var element = Document.XPathSelectElement(path);
