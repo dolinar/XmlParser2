@@ -31,6 +31,9 @@ namespace XmlParser
                 LogMessage("Starting parsing Document");
                 Document = XDocument.Parse(Document.ToString());
 
+                XElement ele = Document.Root;
+                Console.WriteLine(ele.Value);
+
                 LogMessage("Starting getting Values");
                 // Name of tag + path to the tag
                 // for duplicate tags, tag's attribute is used instead of the name
@@ -43,7 +46,7 @@ namespace XmlParser
                 // ime_sole  ---  root/sola/ime_sole  ---  FRI
                 foreach (var e in ParsedData)
                 {
-                    if (tagName == e.Key)
+                    if (tagName.Equals(e.Key))
                     {
                         Console.WriteLine(e.Key + "  ---  " + e.Value + "  ---  " + GetValueFromPath(e.Value));
                     }

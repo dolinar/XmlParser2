@@ -31,7 +31,7 @@ namespace XmlParser
                 {
                     return XDocument.Load(StringPath);
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     // logging
                     throw;

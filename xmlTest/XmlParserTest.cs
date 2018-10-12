@@ -19,7 +19,7 @@ namespace xmlTest
         {
             XmlParser.XmlParser parser = new SimpleXmlParser();
             parser.Document = null;
-            parser.ParseDocument("");
+            parser.ParseDocument();
 
         }
         
@@ -77,7 +77,7 @@ namespace xmlTest
             var doc = XDocument.Load("<xml></xml>");
 
             parser.Document = doc;
-            parser.ParseDocument("");
+            parser.ParseDocument();
         }
 
         private XmlParser.XmlParser LoadParser()
