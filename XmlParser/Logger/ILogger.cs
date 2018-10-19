@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace XmlParser.Logger
+namespace MetronikParser.Logger
 {
     /// <summary>
     /// Enum LogSeverity enumerates severity types. 

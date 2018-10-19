@@ -5,8 +5,9 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using XmlParser;
-using XmlParser.Logger;
+using MetronikParser.Parser;
+using MetronikParser.Logger;
+using MetronikParser.Helpers;
 
 namespace xmlTest
 {
@@ -17,7 +18,7 @@ namespace xmlTest
         [ExpectedException(typeof(ArgumentNullException))]
         public void CheckForNullDocument()
         {
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            MetronikParser.Parser.XmlParser parser = new SimpleXmlParser();
             parser.Document = null;
             parser.ParseDocument();
 
@@ -26,11 +27,11 @@ namespace xmlTest
         [TestMethod]
         public void CheckMessageLogger()
         {
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            MetronikParser.Parser.XmlParser parser = new SimpleXmlParser();
             var doc = new XmlDocument();
             doc.LoadXml("<xml></xml>");
 
-            using (parser.Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 
                 parser.Log.LogMessage("Testing Logger");
@@ -41,11 +42,11 @@ namespace xmlTest
         [TestMethod]
         public void CheckWarningLogger()
         {
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            MetronikParser.Parser.XmlParser parser = new SimpleXmlParser();
             var doc = new XmlDocument();
             doc.LoadXml("<xml></xml>");
 
-            using (parser.Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
 
                 parser.Log.LogWarning("Testing Logger");
@@ -56,11 +57,11 @@ namespace xmlTest
         [TestMethod]
         public void CheckErrorLogger()
         {
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            MetronikParser.Parser.XmlParser parser = new SimpleXmlParser();
             var doc = new XmlDocument();
             doc.LoadXml("<xml></xml>");
 
-            using (parser.Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
 
                 parser.Log.LogError("Testing Logger");
@@ -72,7 +73,7 @@ namespace xmlTest
         [ExpectedException(typeof(ArgumentException))]
         public void SimpleXMLDocument()
         {
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            XmlParser parser = new SimpleXmlParser();
             //TextReader t = new StringReader("<xml></xml>");
             var doc = XDocument.Load("<xml></xml>");
 
@@ -80,54 +81,95 @@ namespace xmlTest
             parser.ParseDocument();
         }
 
-        private XmlParser.XmlParser LoadParser()
+        private XmlParser LoadParser()
         {
-            ReadXml r = new ReadXml();
-            r.StringPath = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test.xml";
-
-            XmlParser.XmlParser parser = new SimpleXmlParser();
-            parser.Document = r.ReadFile();
+            XmlParser parser = new SimpleXmlParser();
+            parser.Document = XDocument.Parse(
+                            @"<root>
+                                <ime testAtt=""testAtt"">Rok</ime>
+                                <priimek>Dolinar</priimek>
+                                <kraj>Javorje 34</kraj>
+                                <sola>
+                                  <ime_sole>FRI</ime_sole>
+                                  <lokacija>Vecna pot</lokacija>
+                                </sola>
+                              </root>");
             return parser;
         }
 
         [TestMethod]
-        public void TestOutput()
+        public void TestRootTag()
         {
-            XmlParser.XmlParser parser = LoadParser();
-            //parser.ParsedData = parser.Document.Root.ToString();
-            using (parser.Log = LoggerFactory.Get(LoggerType.DEBUG))
+            XmlParser parser = LoadParser();
+            parser.ParseData();
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
-                //parser.Log.LogMessage(parser.Output + "");
+                parser.Log.LogMessage("root tag: " + parser.Document.Root.Name.LocalName);
             }
+            Assert.AreEqual("root", parser.Document.Root.Name.LocalName);
         }
 
         [TestMethod]
         public void TestDescendantsCount()
         {
-            XmlParser.XmlParser parser = LoadParser();
+            XmlParser parser = LoadParser();
             int descendantsCount = parser.Document.Descendants().Count();
 
-            using (parser.Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 parser.Log.LogMessage("# of descendants: " + descendantsCount);
             }
 
-            Assert.AreEqual(30, descendantsCount);
-
+            Assert.AreEqual(7, descendantsCount);
         }
 
         [TestMethod]
-        public void TestElements()
+        public void TestGetParsedData()
         {
-            XmlParser.XmlParser parser = LoadParser();
-            parser.Log = LoggerFactory.Get(LoggerType.DEBUG);
-            XDocument parsedDocument = XDocument.Parse(parser.Document.ToString());
-            parser.Log.LogMessage(parsedDocument.ToString());
-            foreach (XElement e in parsedDocument.Elements())
+            XmlParser parser = LoadParser();
+            parser.ParseData();
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
-                parser.Log.LogMessage(e.Value);
+                foreach (var e in parser.ParsedData)
+                {
+                    if (e.Attributes.Count > 0)
+                    {
+                        parser.Log.LogMessage(e.TagName + " : " + e.TagValue + " : " + e.Attributes.First().Key + " : " + e.Attributes.First().Value);
+                    } else
+                    {
+                        parser.Log.LogMessage(e.TagName + " : " + e.TagValue);
+                    }
+                }
             }
+            bool notEmpty = parser.ParsedData.Capacity > 0;
+            Assert.AreEqual(true, notEmpty);
+        }
 
+        [TestMethod]
+        public void TestTagValue()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParseData();
+            Tag t = parser.ParsedData.First();
+            Assert.AreEqual("Rok", t.TagValue);
+        }
+
+        [TestMethod]
+        public void TestTagName()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParseData();
+            Tag t = parser.ParsedData.First();
+            Assert.AreEqual("ime", t.TagName);
+        }
+
+        [TestMethod]
+        public void TestTagAttribute()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParseData();
+            Tag t = parser.ParsedData.First();
+            Assert.AreEqual("testAtt", t.Attributes.First().Value);
         }
     }
 }

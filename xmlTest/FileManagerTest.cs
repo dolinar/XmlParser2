@@ -3,7 +3,8 @@ using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using XmlParser;
+using MetronikParser.Parser;
+using MetronikParser;
 
 namespace xmlTest
 {
@@ -36,7 +37,7 @@ namespace xmlTest
             ReadXml r = new ReadXml();
             r.StringPath = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test.xml";
 
-            XmlParser.XmlParser parser = new SimpleXmlParser();
+            XmlParser parser = new SimpleXmlParser();
             parser.Document = r.ReadFile();
         }
 

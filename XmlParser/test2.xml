@@ -1,5 +1,5 @@
 <root>
-	<ime>Rok</ime>
+	<ime blabla="123">Rok</ime>
 	<priimek>Dolinar</priimek>
 	<kraj>Javorje 34</kraj>
 	<sola>

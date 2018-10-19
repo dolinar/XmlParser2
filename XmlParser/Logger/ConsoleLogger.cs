@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Diagnostics;
 
 namespace MetronikParser.Logger
 {
-    class DebugLogger : ILogger
+    class ConsoleLogger : ILogger
     {
         StringBuilder _log = new StringBuilder();
         public void Dispose()
@@ -34,14 +33,13 @@ namespace MetronikParser.Logger
         {
             log(LogSeverity.ERROR, message, args);
         }
-       
+
         private void log(LogSeverity severity, string message, params object[] args)
         {
             string severityString = GetSeverityString(severity);
             string formatedMessage = string.Format(message, args);
             _log.AppendLine($"{severityString}({DateTime.Now}):{formatedMessage}");
-
-            Debug.WriteLine(formatedMessage);
+            Console.Write(formatedMessage);
         }
 
         private static string GetSeverityString(LogSeverity severity)

@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Xml;
 using System.Xml.Linq;
-using XmlParser.Logger;
+using MetronikParser.Logger;
+using MetronikParser.FileReader;
 
-namespace XmlParser
+namespace MetronikParser
 {
     public class ReadXml : FileObject<XDocument>
     {
 
         public override XDocument ReadFile()
         {
-            using (Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 if (StringPath == null)
                 {
@@ -27,15 +28,9 @@ namespace XmlParser
                     throw new FileNotFoundException();
                 }
 
-                try
-                {
-                    return XDocument.Load(StringPath);
-                }
-                catch (Exception)
-                {
-                    // logging
-                    throw;
-                }
+                
+                return XDocument.Load(StringPath);
+                
             }
 
         }

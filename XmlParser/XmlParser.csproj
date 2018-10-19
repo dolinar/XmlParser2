@@ -43,16 +43,19 @@
   <ItemGroup>
     <Compile Include="FileReader\FileObject.cs" />
     <Compile Include="FileReader\ReadConfig.cs" />
-    <Compile Include="XmlParser\IParser.cs" />
+    <Compile Include="Helpers\Config.cs" />
+    <Compile Include="Logger\ConsoleLogger.cs" />
+    <Compile Include="Helpers\Tag.cs" />
+    <Compile Include="Parser\AdvancedXmlParser.cs" />
+    <Compile Include="Parser\IParser.cs" />
     <Compile Include="FileReader\ReadXml.cs" />
     <Compile Include="Logger\DebugLogger.cs" />
     <Compile Include="Logger\ILogger.cs" />
     <Compile Include="Logger\LoggerFactory.cs" />
-    <Compile Include="XmlParser\IParserFactory.cs" />
-    <Compile Include="XmlParser\ParserBuilder.cs" />
-    <Compile Include="XmlParser\SimpleXmlParser.cs" />
-    <Compile Include="XmlParser\SimpleXmlParserFactory.cs" />
-    <Compile Include="XmlParser\XmlParser.cs" />
+    <Compile Include="Parser\ParserFactory.cs" />
+    <Compile Include="Parser\SimpleXmlParser.cs" />
+    <Compile Include="Parser\XmlParserFactory.cs" />
+    <Compile Include="Parser\XmlParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

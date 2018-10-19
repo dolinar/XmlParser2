@@ -4,16 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XmlParser.Logger;
+using MetronikParser.Logger;
 
-namespace XmlParser.FileReader
+namespace MetronikParser.FileReader
 {
-    class ReadConfig : FileObject<string[]>
+    public class ReadConfig : FileObject<string[]>
     {
         public override string[] ReadFile()
         {
             List<string> lines = new List<string>();
-            using (Log = LoggerFactory.Get(LoggerType.DEBUG))
+            using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 if (StringPath == null)
                 {
