@@ -33,8 +33,10 @@ namespace xmlTest
         public void TestConfig()
         {
             XmlParser parser = LoadParser();
-            parser.ParserConfig = new Config();
-            parser.ParserConfig.Paths = new List<string>(new string[] { "root/ime", "root/priimek", "root/sola/ime_sole" });
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root/ime", "root/priimek", "root/sola/ime_sole" })
+            };
             parser.ParseData();
             Assert.AreEqual(5, parser.ParsedData.Count);
         }
@@ -53,8 +55,10 @@ namespace xmlTest
         public void TestPathWithAttributeProvided()
         {
             XmlParser parser = LoadParser();
-            parser.ParserConfig = new Config();
-            parser.ParserConfig.Paths = new List<string>(new string[] { "root/ime[@testAtt='testAtt']" });
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root/ime[@testAtt='testAtt']" })
+            };
             parser.ParseData();
             Tag t = parser.ParsedData.ElementAt(0);
             Assert.AreEqual(t.TagValue, "Rok");
@@ -64,8 +68,10 @@ namespace xmlTest
         public void TestPathWithDuplicateTagProvided()
         {
             XmlParser parser = LoadParser();
-            parser.ParserConfig = new Config();
-            parser.ParserConfig.Paths = new List<string>(new string[] { "root/ime[@testAtt2='testAtt2']" });
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root/ime[@testAtt2='testAtt2']" })
+            };
             parser.ParseData();
             Tag t = parser.ParsedData.ElementAt(0);
             Assert.AreEqual(t.TagValue, "Rok2");
@@ -75,8 +81,10 @@ namespace xmlTest
         public void TestPathWithDuplicateTagNoAttributesProvided()
         {
             XmlParser parser = LoadParser();
-            parser.ParserConfig = new Config();
-            parser.ParserConfig.Paths = new List<string>(new string[] { "root/priimek" });
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root/priimek" })
+            };
             parser.ParseData();
             Tag t = parser.ParsedData.ElementAt(0);
             Assert.AreEqual(t.TagValue, "Dolinar");
