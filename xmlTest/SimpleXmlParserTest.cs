@@ -12,7 +12,7 @@ using MetronikParser.Helpers;
 namespace xmlTest
 {
     [TestClass]
-    public class XmlParserTest
+    public class SimpleXmlParserTest
     {
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]

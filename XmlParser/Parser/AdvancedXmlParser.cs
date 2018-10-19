@@ -6,33 +6,60 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.XPath;
+using System.Xml.Linq;
 
 namespace MetronikParser.Parser
 {
     public class AdvancedXmlParser : XmlParser
     {
-        private Tag _previousTag = null;
+        private Tag _tag = null;
 
+        public AdvancedXmlParser()
+        {
+            ParsedData = new List<Tag>();
+        }
         public override void ParseData()
         {
             using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 base.ParseDocument();
 
+                LogMessage("retireving data from Config");
+                foreach (var path in ParserConfig.Paths)
+                {
+                    List<Tag> tags = getTagsFromPath(path);
+                    foreach (var tag in tags)
+                    {
+                        ParsedData.Add(tag);
+                    }
+                }
             }
         }
 
-        private Tag getTagFromPath(string path)
+        private List<Tag> getTagsFromPath(string path)
         {
-            var element = Document.XPathSelectElement(path);
-            _previousTag = new Tag();
-            _previousTag.TagName = element.Name.LocalName;
-            _previousTag.TagValue = element.Value;
-            _previousTag.TagPath = path;
+            List<Tag> tags = new List<Tag>();
+            var elements = Document.XPathSelectElements(path);
+            if (elements.Count() == 0)
+                throw new NullReferenceException();
+
+            Tag t;
+            foreach (var element in elements)
+            {
+                t = new Tag();
+                t.TagName = element.Name.LocalName;
+                t.TagValue = element.Value;
+                t.Attributes = new Dictionary<string, string>();
+                foreach (XAttribute attribute in element.Attributes())
+                {
+                    t.Attributes.Add(attribute.Name.LocalName, attribute.Value);
+                }
+                tags.Add(t);
+            }
 
             //path += "/" + element.Name.LocalName;
 
-            return _previousTag;
+            return tags;
         }
 
         public override void LogMessage(string message, params object[] args)

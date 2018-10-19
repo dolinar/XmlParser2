@@ -17,7 +17,7 @@ namespace MetronikParser.Parser
 
         public XDocument Document { get; set; }
 
-        public Config Config { get; set; }
+        public Config ParserConfig { get; set; }
 
         public List<Tag> ParsedData { get; set; }
 

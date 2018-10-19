@@ -9,7 +9,7 @@ namespace MetronikParser.Parser
     {
         ILogger Log { get; set; }
 
-        Config Config { get; set; }
+        Config ParserConfig { get; set; }
 
         List<Tag> ParsedData { get; set; }
 

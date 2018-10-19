@@ -52,8 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileManagerTest.cs" />
-    <Compile Include="XmlParserTest.cs" />
+    <Compile Include="SimpleXmlParserTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdvancedXmlParserTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
