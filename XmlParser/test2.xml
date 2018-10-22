@@ -1,856 +1,734 @@
-<row>
-<Machine_Recipe><Parameter>
-<Tag>Parametri stroja</Tag>
-<Recipe_Name>2ml_Ø10,75mm_yellow   Label_30x18mm</Recipe_Name>
-<Value>2ml_Ø10,75mm_yellow   Label_30x18mm</Value>
-<Recipe_version>7</Recipe_version>
-<Recipe_state>Sproščeno</Recipe_state>
-<Comment1>test1</Comment1>
-<User>Superuser</User>
-<TimeChange>2017-10-16 16:21</TimeChange>
-</Parameter></Machine_Recipe>
-<Recipe_Group>
-<Parameter><Recipe_Group>
-Parametri stroja
-</Recipe_Group></Parameter>
-<Parameter><Recipe_version>
-7
-</Recipe_version></Parameter>
-<Parameter><State>2 - @ABBE11688_Freigegeben@</State></Parameter>
-<Parameter><State>181</State></Parameter>
-<Parameter><State>test1</State></Parameter>
-<Parameter><State>test2</State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State></State></Parameter>
-<Parameter><State>Superuser</State></Parameter>
-<Parameter><State>16.10.2017 16:21</State></Parameter>
-<Parameter><State>32</State></Parameter>
-<Parameter><State>Hitrost proizvodnjeSprememba parametra10100100%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>01 Transport skozi stroj</Filtergruppe></Parameter>
-<Parameter>
-<Tag>Hitrost proizvodnje</Tag>
-<Value>100</Value>
-<Unit>%</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Hitrost dovodnega trakuSprememba parametra1010030%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Hitrost dovodnega traku</Tag>
-<Value>30</Value>
-<Unit>%</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje barvne kodeSprememba parametra01101 Transport skozi strojVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Preverjanje barvne kode</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje prisotnosti etiketeSprememba parametra01101 Transport skozi strojVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Preverjanje prisotnosti etikete</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Največja hitrost glavnega pogonaSprememba parametra1010084%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Največja hitrost glavnega pogona</Tag>
-<Value>84</Value>
-<Unit>%</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Korak kolesa za transport skozi strojSprememba parametra03001 Transport skozi stroj48UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
-<Parameter>
-<Tag>Korak kolesa za transport skozi stroj</Tag>
-<Value>[48] 0</Value>
-<Unit></Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Najdaljši čas za breztlačno stanje preusmerjevalnega potiskalnikaSprememba parametra060015s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Najdaljši čas za breztlačno stanje preusmerjevalnega potiskalnika</Tag>
-<Value>15</Value>
-<Unit>s</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zakasnitev pomanjkanja izdelkov na dovoduSprememba parametra06003s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zakasnitev pomanjkanja izdelkov na dovodu</Tag>
-<Value>3</Value>
-<Unit>s</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje barvne kode, receptura št.Sprememba parametra01001101 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Preverjanje barvne kode, receptura št.</Tag>
-<Value>11</Value>
-<Unit></Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Hitrost vrtenja izdelka pri preverjanju prisotnosti etiketeSprememba parametra1010010%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Hitrost vrtenja izdelka pri preverjanju prisotnosti etikete</Tag>
-<Value>10</Value>
-<Unit>%</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Izbira odvodaSprememba parametra02001 Transport skozi strojPolnjenje zalogovnikaUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Izbira odvoda</Tag>
-<Value>[Polnjenje zalogovnika] 0</Value>
-<Unit></Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zmanjšanje hitrostiSprememba parametra19010%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zmanjšanje hitrosti</Tag>
-<Value>10</Value>
-<Unit>%</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Vključena zakasnitev zmanjšanja hitrostiSprememba parametra0.160.02.0s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Vključena zakasnitev zmanjšanja hitrosti</Tag>
-<Value>2.0</Value>
-<Unit>s</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Izključena zakasnitev zmanjšanja hitrostiSprememba parametra0.160.02.0s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Izključena zakasnitev zmanjšanja hitrosti</Tag>
-<Value>2.0</Value>
-<Unit>s</Unit>
-<Filter>01 Transport skozi stroj</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podajalnik etiketSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>02 Podajalnik etiket</Filtergruppe></Parameter>
-<Parameter>
-<Tag>Podajalnik etiket</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Naprava za spajanje etiketSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Naprava za spajanje etiket</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Hitrost podajalnikaSprememba parametra101000670izd/min02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Hitrost podajalnika</Tag>
-<Value>670</Value>
-<Unit>izd/min</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Dolžina etikete + razmak med etiketamiSprememba parametra1.0500.034.8mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Dolžina etikete + razmak med etiketami</Tag>
-<Value>34.8</Value>
-<Unit>mm</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Hitrost podajanjaSprememba parametra110050m/min02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Hitrost podajanja</Tag>
-<Value>50</Value>
-<Unit>m/min</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Začetno naraščanje podajalnikaSprememba parametra1.0100.05.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Začetno naraščanje podajalnika</Tag>
-<Value>5.0</Value>
-<Unit>mm</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Končno upadanje podajalnikaSprememba parametra1.0100.05.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Končno upadanje podajalnika</Tag>
-<Value>5.0</Value>
-<Unit>mm</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Naknadno delovanje podajalnikaSprememba parametra1.0255.020.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Naknadno delovanje podajalnika</Tag>
-<Value>20.0</Value>
-<Unit>mm</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Toleranca dolžine etiketeSprememba parametra1.020.02.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Toleranca dolžine etikete</Tag>
-<Value>2.0</Value>
-<Unit>mm</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Vrednost popravka za hitrost pripraveSprememba parametra-10.010.00.0%02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Vrednost popravka za hitrost priprave</Tag>
-<Value>0.0</Value>
-<Unit>%</Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje potiska serijeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Preverjanje potiska serije</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje kode etiketeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Preverjanje kode etikete</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Samodejno prepoznavanje mest brez etiketeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Samodejno prepoznavanje mest brez etikete</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zamik zaradi napake nalepkeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Zamik zaradi napake nalepke</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Izmet pomanjkljivih etiket na odvzemnem valjuSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Izmet pomanjkljivih etiket na odvzemnem valju</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje potiska serije«Sprememba parametra060602 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje potiska serije«</Tag>
-<Value>6</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje kode etikete«Sprememba parametra060602 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje kode etikete«</Tag>
-<Value>6</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in robom podajalnikaSprememba parametra0602702 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Etikete med tipalom za zaustavitev podajalnika in robom podajalnika</Tag>
-<Value>27</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje etiket za recepturo št.Sprememba parametra01001302 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Preverjanje etiket za recepturo št.</Tag>
-<Value>13</Value>
-<Unit></Unit>
-<Filter>02 Podajalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>TiskalnikSprememba parametra01103 Tiskalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>03 Tiskalnik etiket</Filtergruppe></Parameter>
-<Parameter>
-<Tag>Tiskalnik</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>03 Tiskalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Št. recepture za tiskalnikSprememba parametra0100203 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Št. recepture za tiskalnik</Tag>
-<Value>2</Value>
-<Unit></Unit>
-<Filter>03 Tiskalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Krmiljenje tiskalnika po zagonu podajalnikaSprememba parametra0.0100.021.5mm03 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Krmiljenje tiskalnika po zagonu podajalnika</Tag>
-<Value>21.5</Value>
-<Unit>mm</Unit>
-<Filter>03 Tiskalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Etikete med »Zaznavanje etikete na tiskalniku« in tiskalnikomSprememba parametra010403 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Etikete med »Zaznavanje etikete na tiskalniku« in tiskalnikom</Tag>
-<Value>4</Value>
-<Unit></Unit>
-<Filter>03 Tiskalnik etiket</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica LotSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>04 Podatek za preverjanje</Filtergruppe></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Lot</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica ExpSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Exp</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica MnfSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Mnf</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica 4Sprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica 4</Tag>
-<Value>[Izklop] 0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za kodo podatkovne matrikeSprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Podatek za kodo podatkovne matrike</Tag>
-<Value>[Izklop] 0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za kodo etiketeSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Podatek za kodo etikete</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Natisni podatek za potisk serije, vrstica LotSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Natisni podatek za potisk serije, vrstica Lot</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Natisni podatek za potisk serije, vrstica ExpSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Natisni podatek za potisk serije, vrstica Exp</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Natisni podatek za potisk serije, vrstica MnfSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Natisni podatek za potisk serije, vrstica Mnf</Tag>
-<Value>[Vklop] 1</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Natisni podatek za potisk serije, vrstica 4Sprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Natisni podatek za potisk serije, vrstica 4</Tag>
-<Value>[Izklop] 0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Natisni podatek za kodo podatkovne matrikeSprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
-<Parameter>
-<Tag>Natisni podatek za kodo podatkovne matrike</Tag>
-<Value>[Izklop] 0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica Lot, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Lot, število znakov</Tag>
-<Value>0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica Exp, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Exp, število znakov</Tag>
-<Value>0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica Mnf, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica Mnf, število znakov</Tag>
-<Value>0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za potisk serije, vrstica 4, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za potisk serije, vrstica 4, število znakov</Tag>
-<Value>0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za kodo podatkovne matrike, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za kodo podatkovne matrike, število znakov</Tag>
-<Value>0</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Podatek za kodo etikete, število znakovSprememba parametra080804 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Podatek za kodo etikete, število znakov</Tag>
-<Value>8</Value>
-<Unit></Unit>
-<Filter>04 Podatek za preverjanje</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zaznavanje izdelka ZačetekSprememba parametra0.0359.9310.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>05 Cam kontroler</Filtergruppe></Parameter>
-<Parameter>
-<Tag>Zaznavanje izdelka Začetek</Tag>
-<Value>310.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zaznavanje izdelka KonecSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zaznavanje izdelka Konec</Tag>
-<Value>50.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zagon podajalnika ZačetekSprememba parametra0.0359.9215.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zagon podajalnika Začetek</Tag>
-<Value>215.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zagon podajalnika KonecSprememba parametra0.0359.9270.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zagon podajalnika Konec</Tag>
-<Value>270.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zagon podajalnika Mrtvi časSprememba parametra0999920ms05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zagon podajalnika Mrtvi čas</Tag>
-<Value>20</Value>
-<Unit>ms</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Vrednotenje preverjanja barvne kode ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Vrednotenje preverjanja barvne kode Začetek</Tag>
-<Value>0.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Vrednotenje preverjanja barvne kode KonecSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Vrednotenje preverjanja barvne kode Konec</Tag>
-<Value>100.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Prožilni signal preverjanja barvne kode ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Prožilni signal preverjanja barvne kode Začetek</Tag>
-<Value>0.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Prožilni signal preverjanja barvne kode KonecSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Prožilni signal preverjanja barvne kode Konec</Tag>
-<Value>100.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Položaj za izmet etikete ZačetekSprememba parametra0.0359.9350.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Položaj za izmet etikete Začetek</Tag>
-<Value>350.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Položaj za izmet etikete KonecSprememba parametra0.0359.910.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Položaj za izmet etikete Konec</Tag>
-<Value>10.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje prisotnosti etikete ZačetekSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Preverjanje prisotnosti etikete Začetek</Tag>
-<Value>100.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Preverjanje prisotnosti etikete KonecSprememba parametra0.0359.9250.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Preverjanje prisotnosti etikete Konec</Tag>
-<Value>250.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Nasprotno preverjanje odvoda ZačetekSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Nasprotno preverjanje odvoda Začetek</Tag>
-<Value>50.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Nasprotno preverjanje odvoda KonecSprememba parametra0.0359.9150.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Nasprotno preverjanje odvoda Konec</Tag>
-<Value>150.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Nadaljevanje ventilov na izhodnih kolesih ZačetekSprememba parametra0.0359.9180.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Nadaljevanje ventilov na izhodnih kolesih Začetek</Tag>
-<Value>180.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Nadaljevanje ventilov na izhodnih kolesih KonecSprememba parametra0.0359.9230.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Nadaljevanje ventilov na izhodnih kolesih Konec</Tag>
-<Value>230.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zaustavitev z določenim končnim položajem ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zaustavitev z določenim končnim položajem Začetek</Tag>
-<Value>0.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Zaustavitev z določenim končnim položajem KonecSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Zaustavitev z določenim končnim položajem Konec</Tag>
-<Value>50.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Takt premika ZačetekSprememba parametra0.0359.9310.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Takt premika Začetek</Tag>
-<Value>310.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Takt premika KonecSprememba parametra0.0359.9359.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Takt premika Konec</Tag>
-<Value>359.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Sprostitev takta premika ZačetekSprememba parametra0.0359.9120.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Sprostitev takta premika Začetek</Tag>
-<Value>120.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>Sprostitev takta premika KonecSprememba parametra0.0359.9180.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>Sprostitev takta premika Konec</Tag>
-<Value>180.0</Value>
-<Unit>°</Unit>
-<Filter>05 Cam kontroler</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>01 Višina podajalnika etiketSprememba parametra0.0999.96.006 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>06 Mehanske nastavitve</Filtergruppe></Parameter>
-<Parameter>
-<Tag>01 Višina podajalnika etiket</Tag>
-<Value>6.0</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>02 Položaj podajalnega jezikaSprememba parametra0.0999.921.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>02 Položaj podajalnega jezika</Tag>
-<Value>21.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>03 Položaj podajalnega robaSprememba parametra0.0999.910.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>03 Položaj podajalnega roba</Tag>
-<Value>10.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>04 Položaj pritisne ploščeSprememba parametra0.0999.93.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>04 Položaj pritisne plošče</Tag>
-<Value>3.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>05 Položaj podajalnega valjaSprememba parametra0.0999.945.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>05 Položaj podajalnega valja</Tag>
-<Value>45.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>06 Višina postaje za preverjanje etiketSprememba parametra0.0999.915.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>06 Višina postaje za preverjanje etiket</Tag>
-<Value>15.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>07 Položaj postaje za preverjanje etiketSprememba parametra0.0999.9305.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>07 Položaj postaje za preverjanje etiket</Tag>
-<Value>305.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>08 Višina tiskalnikaSprememba parametra0.0999.927.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>08 Višina tiskalnika</Tag>
-<Value>27.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>09 Položaj tiskalnikaSprememba parametra0.0999.980.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>09 Položaj tiskalnika</Tag>
-<Value>80.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>10 Tipalo položaja &lt;Zaznavanje etikete na tiskalniku&gt;Sprememba parametra0.0999.930.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>10 Tipalo položaja &lt;Zaznavanje etikete na tiskalniku&gt;</Tag>
-<Value>30.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>11 Položaj vzmeti za prednapetost nihala za odvijanje etiketSprememba parametra13306 Mehanske nastavitveLuknja 3UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
-<Parameter>
-<Tag>11 Položaj vzmeti za prednapetost nihala za odvijanje etiket</Tag>
-<Value>[Luknja 3] 3</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>12 Položaj napenjalne vzmeti za zavoro odvijalnika etiketSprememba parametra13206 Mehanske nastavitveLuknja 2UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
-<Parameter>
-<Tag>12 Položaj napenjalne vzmeti za zavoro odvijalnika etiket</Tag>
-<Value>[Luknja 2] 2</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>13 Tipalo položaja &lt;Odčitavanje izdelka&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>13 Tipalo položaja &lt;Odčitavanje izdelka&gt;</Tag>
-<Value>5.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>14 Višina postaje za preverjanje barvSprememba parametra0.0999.9114.006 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>14 Višina postaje za preverjanje barv</Tag>
-<Value>114.0</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>15 Položaj vzmeti za prednapetost pripravljalnega valjaSprememba parametra14206 Mehanske nastavitveLuknja 2UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
-<Parameter>
-<Tag>15 Položaj vzmeti za prednapetost pripravljalnega valja</Tag>
-<Value>[Luknja 2] 2</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>16 Višina tipala &lt;Etiketa na pripravljalnem valju pred odvzemnim valjem&gt;Sprememba parametra0.0999.92.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>16 Višina tipala &lt;Etiketa na pripravljalnem valju pred odvzemnim valjem&gt;</Tag>
-<Value>2.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>17 Položaj vzmeti za prednapetost odvzemnega valjaSprememba parametra14106 Mehanske nastavitveLuknja 1UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
-<Parameter>
-<Tag>17 Položaj vzmeti za prednapetost odvzemnega valja</Tag>
-<Value>[Luknja 1] 1</Value>
-<Unit></Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>18 Višina tipala &lt;Etiketa manjka&gt;Sprememba parametra0.0999.921.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>18 Višina tipala &lt;Etiketa manjka&gt;</Tag>
-<Value>21.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>19 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 1&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>19 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 1&gt;</Tag>
-<Value>5.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>20 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 2&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>20 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 2&gt;</Tag>
-<Value>5.0</Value>
-<Unit>mm</Unit>
-<Filter>06 Mehanske nastavitve</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>01 Položaj oznake za etiketiranje na vrtljivi sesalni ploščiSprememba parametra0.0999.90.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>07 Mehanske nastavitvene vrednosti ESE</Filtergruppe></Parameter>
-<Parameter>
-<Tag>01 Položaj oznake za etiketiranje na vrtljivi sesalni plošči</Tag>
-<Value>0.0</Value>
-<Unit>mm</Unit>
-<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>02 Položaj oznake za poravnavo na fiksni sesalni ploščiSprememba parametra0.0999.930.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>02 Položaj oznake za poravnavo na fiksni sesalni plošči</Tag>
-<Value>30.0</Value>
-<Unit>mm</Unit>
-<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>03 Položaj bata za število vrst sesalnih šobSprememba parametra2.010.03.007 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>03 Položaj bata za število vrst sesalnih šob</Tag>
-<Value>3.0</Value>
-<Unit></Unit>
-<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>04 Višina podlage za etiketeSprememba parametra0.0999.9117.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>04 Višina podlage za etikete</Tag>
-<Value>117.0</Value>
-<Unit>mm</Unit>
-<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
-<Similar></Similar>
-</Parameter>
-<Parameter><State>05 Položaj vodila etiket na fiksni sesalni ploščiSprememba parametra0.0999.923.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
-<Parameter>
-<Tag>05 Položaj vodila etiket na fiksni sesalni plošči</Tag>
-<Value>23.0</Value>
-<Unit>mm</Unit>
-<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
-<Similar></Similar>
-</Parameter>
-</Recipe_Group>
-</row>
+<?xml version="1.0" encoding="utf-8" ?>
+<rows>
+  <SQLProcedures>
+    <AuditTrail>
+      <Proc>[dbo].[audit_trail_raw_Ulman_ins]</Proc>
+    </AuditTrail>
+    <RepInsertion>
+      <Proc>[dbo].[typ_RepUlman_ins]</Proc>
+    </RepInsertion>
+  </SQLProcedures>
+  <ReadPath>D:\BAUSCH\New</ReadPath>
+  <NodeName>N1BS1</NodeName>
+  <head slokey="ppm_typ_class_type_id" enkey="Machine1" code="BSMA001">
+    <property name="Value">1</property>
+  </head>
+
+  <head slokey="start_date" enkey="Product_name1" code="BSMA002"> 
+    <property name="Value">StartDT</property>
+  </head>
+
+  <head slokey="end_date" enkey="User1" code="BSMA003"> 
+    <property name="Value">EndDT</property> 
+  </head>
+  
+  <head slokey="execution_status" enkey="User1" code="BSMA003"> 
+    <property name="Value">1</property> 
+  </head>
+  
+  <head slokey="ppm_typ_class_instance_id" enkey="User1" code="BSMA003"> 
+    <property name="Value">30600</property> 
+  </head>
+  
+  <head slokey="operater_name" enkey="User1" code="BSMA003"> 
+    <property name="Value">User</property> 
+  </head>
+  
+  <head slokey="ctrl_num" enkey="User1" code="BSMA003"> 
+    <property name="Value">TEST</property> 
+  </head>
+  
+  <head slokey="status_id" enkey="User1" code="BSMA003"> 
+    <property name="Value">1</property> 
+  </head>
+  
+  <head slokey="product_code" enkey="User1" code="BSMA003"> 
+    <property name="Value">Product_number</property> 
+  </head>
+
+  <head slokey="product_name" enkey="User1" code="BSMA003"> 
+    <property name="Value">Product_name</property> 
+  </head>
+  
+  <head slokey="comment1" enkey="User1" code="BSMA003"> 
+    <property name="Value">User_comment</property> 
+  </head>
+  
+  <head slokey="ppm_typ_class_id" enkey="User1" code="BSMA003"> 
+    <property name="Value">11951</property> 
+  </head>
+  
+  <head slokey="sequence" enkey="User1" code="BSMA003"> 
+    <property name="Value">1</property> 
+  </head>
+  
+  <head slokey="rep_type_regime_id" enkey="User1" code="BSMA003"> 
+    <property name="Value">0</property> 
+  </head>
+  
+  <head slokey="rec_sequence" enkey="User1" code="BSMA003"> 
+    <property name="Value">1</property> 
+  </head>
+
+
+  
+  
+  
+  
+  <row slokey="Batch" enkey="Batch1" code="BSMA001">
+    <property name="Value">Batch</property>
+  </row>
+
+  <row slokey="Duration" enkey="Duration1" code="BSMA002"> 
+    <property name="Value">Duration</property>
+  </row>
+
+  <row slokey="User_at_batch_start" enkey="User_at_batch_start1" code="BSMA003">
+    <property name="Value">User_at_batch_start</property>
+  </row>
+
+  <row slokey="User_at_batch_end" enkey="User_at_batch_end1" code="BSMA004">
+    <property name="Value">User_at_batch_end</property>
+  </row>
+
+  <row slokey="Recipe_at_batch_start" enkey="Recipe_at_batch_start1" code="BSMA005">
+    <property name="Value">Recipe_at_batch_start</property>
+  </row>
+  
+  <row slokey="Printed" enkey="Printed1" code="BSMA006">
+    <property name="Value">Printed</property>
+  </row>
+  
+  
+  <row slokey="Ring_color_1" enkey="Ring_color_11" code="BSMA007">
+    <property name="Value">Ring_color_1</property>
+  </row>
+  
+  <row slokey="Ring_color_2" enkey="Ring_color_21" code="BSMA008">
+    <property name="Value">Ring_color_2</property>
+  </row>
+
+  <row slokey="Ring_color_3" enkey="Ring_color_31" code="BSMA009">
+    <property name="Value">Ring_color_3</property>
+  </row>
+
+  <row slokey="Lot" enkey="Lot1" code="BSMA010">
+    <property name="Value">Lot</property>
+  </row>
+
+  <row slokey="Exp" enkey="Exp1" code="BSMA011">
+    <property name="Value">Exp</property>
+  </row>
+
+  <row slokey="Mnf" enkey="Mnf1" code="BSMA012">
+    <property name="Value">Mnf</property>
+  </row>
+
+  <row slokey="Label_code" enkey="Label_code1" code="BSMA013">
+    <property name="Value">Label_code</property>
+  </row>
+  
+  
+  
+
+  <row slokey="Total_containers_since_last_reset_value" enkey="Total_containers_since_last_reset_value1" code="BSCST01">  
+    <property name="Value">Total_containers_since_last_reset_value</property>
+  </row>
+  
+  <row slokey="Total_containers_since_last_reset_value_percent" enkey="Total_containers_since_last_reset_value_percent1" code="BSCST02">
+    <property name="Value">Total_containers_since_last_reset_value_percent</property>
+  </row>
+  
+  <row slokey="Good_containers_value" enkey="Good_containers_value1" code="BSCST03">
+    <property name="Value">Good_containers_value</property>
+  </row>
+  
+  <row slokey="Good_containers_percent" enkey="Good_containers_percent1" code="BSCST04">
+    <property name="Value">Good_containers_percent</property>
+  </row>
+
+  <row slokey="Rejects_value" enkey="Rejects_value1" code="BSCST05">
+    <property name="Value">Rejects_value</property>
+  </row>
+  
+  <row slokey="Rejects_percent" enkey="Rejects_percent1" code="BSCST06">
+    <property name="Value">Rejects_percent</property>
+  </row>
+
+  <row slokey="Wrong_color_code_value" enkey="Wrong_color_code_value1" code="BSCST07">
+    <property name="Value">Wrong_color_code_value</property>
+  </row>
+
+  <row slokey="Wrong_color_code_percent" enkey="Wrong_color_code_percent1" code="BSCST08">
+    <property name="Value">Wrong_color_code_percent</property>
+  </row>
+
+  <row slokey="Label_missing_on_container_value" enkey="Label_missing_on_container_value1" code="BSCST09">
+    <property name="Value">Label_missing_on_container_value</property>
+  </row>
+
+  <row slokey="Label_missing_on_container_percent" enkey="Label_missing_on_container_percent1" code="BSCST10">
+    <property name="Value">Label_missing_on_container_percent</property>
+  </row>
+
+  <row slokey="Wrong_batch_print_value" enkey="Wrong_batch_print_value1" code="BSCST11">
+    <property name="Value">Wrong_batch_print_value</property>
+  </row>
+  
+  <row slokey="Wrong_batch_print_percent" enkey="Wrong_batch_print_percent1" code="BSCST12">
+    <property name="Value">Wrong_batch_print_percent</property>
+  </row>
+  
+  <row slokey="Wrong_label_code_value" enkey="Wrong_label_code_value1" code="BSCST13">
+    <property name="Value">Wrong_label_code_value</property>
+  </row>
+  
+  <row slokey="Wrong_label_code_percent" enkey="Wrong_label_code_percent1" code="BSCST14">
+    <property name="Value">Wrong_label_code_percent</property>
+  </row>
+  
+  <row slokey="Label_missing_at_dispenser_value" enkey="Label_missing_at_dispenser_value1" code="BSCST15">
+    <property name="Value">Label_missing_at_dispenser_value</property>
+  </row>
+
+  <row slokey="Label_missing_at_dispenser_percent" enkey="Label_missing_at_dispenser_percent1" code="BSCST16">
+    <property name="Value">Label_missing_at_dispenser_percent</property>
+  </row>
+  
+ 
+
+  <!-- MACHINE STATUS -->
+  <row slokey="Machine_recipe_name" enkey="Machine_recipe_name1" code="BSMAS01">
+    <property name="Value">Machine_recipe_name</property>
+  </row>
+
+  <row slokey="Machine_user" enkey="Machine_user1" code="BSMAS02">
+    <property name="Value">Machine_user</property>
+  </row>
+
+  <row slokey="Machine_recipe_version" enkey="Machine_recipe_version1" code="BSMAS03">
+    <property name="Value">Machine_recipe_version</property>
+  </row>
+
+  <row slokey="Machine_recipe_state" enkey="Machine_recipe_state1" code="BSMAS04">
+    <property name="Value">Machine_recipe_state</property>
+  </row>
+
+  <row slokey="Machine_last_change" enkey="Machine_last_change1" code="BSMAS05">
+    <property name="Value">Machine_last_change</property>
+  </row>
+
+  <row slokey="Machine_status" enkey="Machine_status1" code="BSMAS06">
+    <property name="Value">Machine_status</property>
+  </row>
+
+
+
+
+  <!-- 01 -->
+  <row slokey="Hitrost proizvodnje" enkey="Production speed" code="BSTS001">
+    <property name="Value">TS_Production_speed_value</property>
+    <property name="Unit">TS_Production_speed_unit</property>
+  </row>
+
+  <row slokey="Hitrost dovodnega traku" enkey="Infeed belt speed" code="BSTS002">
+    <property name="Value">TS_Infeed_belt_speed_value</property>
+    <property name="Unit">TS_Infeed_belt_speed_unit</property>
+  </row>
+
+  <row slokey="Preverjanje barvne kode" enkey="Color code check" code="BSTS003">
+    <property name="Value">TS_Color_code_check</property>
+  </row>
+
+  <row slokey="Preverjanje prisotnosti etikete" enkey="Label-on-container check" code="BSTS004">
+    <property name="Value">TS_Label_container_check</property>
+  </row>
+
+  <row slokey="Največja hitrost glavnega pogona" enkey="Max. main drive speed" code="BSTS005">
+    <property name="Value">TS_Max_drive_speed_value</property>
+    <property name="Unit">TS_Max_drive_speed_unit</property>
+  </row>
+
+  <row slokey="Korak kolesa za transport skozi stroj" enkey="Number of star wheel positions" code="BSTS006">
+    <property name="Value">TS_Number_star_wheel</property>
+  </row>
+
+  <row slokey="Najdaljši čas za breztlačno stanje preusmerjevalnega potiskalnika" enkey="Max. time infeed pusher pressure released" code="BSTS007">
+    <property name="Value">TS_Max_time_infeed_value</property>
+    <property name="Unit">TS_Max_time_infeed_unit</property>
+  </row>
+
+  <row slokey="Zakasnitev pomanjkanja izdelkov na dovodu" enkey="Delay until container shortage at infeed OFF" code="BSTS008">
+    <property name="Value">TS_Delay_container_shortage_value</property>
+    <property name="Unit">TS_Delay_container_shortage_unit</property>
+  </row>
+
+  <row slokey="Preverjanje barvne kode, receptura št." enkey="Color code check recipe no." code="BSTS009">
+    <property name="Value">TS_Color_code_check_recipe</property>
+  </row>
+
+  <row slokey="Hitrost vrtenja izdelka pri preverjanju prisotnosti etikete" enkey="Container rotation speed at label-on-container check" code="BSTS010">
+    <property name="Value">TS_Container_rotation_speed_value</property>
+    <property name="Unit">TS_Container_rotation_speed_unit</property>
+  </row>
+
+  <row slokey="Izbira odvoda" enkey="Discharge configuration" code="BSTS011">
+    <property name="Value">TS_Discharge_config</property>
+  </row>
+
+ <!-- <row slokey="Zakasnitev polnega izhodnega zalogovnika" enkey="Delay until discharge tray full signaled" code="BSTS012">
+    <property name="Value">TS_Delay_discharge_value</property>
+    <property name="Unit">TS_Delay_discharge_until_unit</property>
+  </row>
+-->
+  <row slokey="Zmanjšanje hitrosti" enkey="Speed reduction" code="BSTS012">
+    <property name="Value">TS_Speed_reduction_value</property>
+    <property name="Unit">TS_Speed_reduction_unit</property>
+  </row>
+
+  <row slokey="Vključena zakasnitev zmanjšanja hitrosti" enkey="Time lag until speed reduction ON" code="BSTS013">
+    <property name="Value">TS_Time_lag_ON_value</property>
+    <property name="Unit">TS_Time_lag_ON_unit</property>
+  </row>
+
+  <row slokey="Izključena zakasnitev zmanjšanja hitrosti" enkey="Time lag until speed reduction OFF" code="BSTS014">
+    <property name="Value">TS_Time_lag_OFF_value</property>
+    <property name="Unit">TS_Time_lag_OFF_unit</property>
+  </row>
+
+
+  
+  <!-- 02 -->
+
+  <row slokey="Podajalnik etiket" enkey="Label dispenser" code="BSLB001">
+    <property name="Value">LB_Label_dispenser</property>
+  </row>
+
+  <row slokey="Naprava za spajanje etiket" enkey="Label splicer" code="BSLB002">
+    <property name="Value">LB_Label_splicer</property>
+  </row>
+
+  <row slokey="Hitrost podajalnika" enkey="Dispenser output" code="BSLB003">
+    <property name="Value">LB_Dispenser_output_value</property>
+    <property name="Unit">LB_Dispenser_output_unit</property>
+  </row>
+
+  <row slokey="Dolžina etikete + razmak med etiketami" enkey="Label length plus gap" code="BSLB004">
+    <property name="Value">LB_Label_length_gap_value</property>
+    <property name="Unit">LB_Label_length_gap_unit</property>
+  </row>
+
+  <row slokey="Hitrost podajanja" enkey="Dispensing speed" code="BSLB005">
+    <property name="Value">LB_Dispensing_speed_value</property>
+    <property name="Unit">LB_Dispensing_speed_unit</property>
+  </row>
+
+  <row slokey="Začetno naraščanje podajalnika" enkey="Dispenser start ramp" code="BSLB006">
+    <property name="Value">LB_Dispenser_Start_ramp_value</property>
+    <property name="Unit">LB_Dispenser_Start_ramp_unit</property>
+  </row>
+
+  <row slokey="Končno upadanje podajalnika" enkey="Dispenser stop ramp" code="BSLB007">
+    <property name="Value">LB_Dispenser_Stop_ramp_value</property>
+    <property name="Unit">LB_Dispenser_Stop_ramp_unit</property>
+  </row>
+
+  <row slokey="Naknadno delovanje podajalnika" enkey="Dispenser after-run" code="BSLB008">
+    <property name="Value">LB_Dispenser_After_run_value</property>
+    <property name="Unit">LB_Dispenser_After_run_unit</property>
+  </row>
+
+  <row slokey="Toleranca dolžine etikete" enkey="Label length tolerance" code="BSLB009">
+    <property name="Value">LB_Label_length_tolerance_value</property>
+    <property name="Unit">LB_Label_length_tolerance_unit</property>
+  </row>
+
+  <row slokey="Vrednost popravka za hitrost priprave" enkey="Smoothing speed correction value" code="BSLB010">
+    <property name="Value">LB_Smoothing_speed_value</property>
+    <property name="Unit">LB_Smoothing_speed_unit</property>
+  </row>
+
+  <row slokey="Preverjanje potiska serije" enkey="Batch print check" code="BSLB011">
+    <property name="Value">LB_Batch_print_check</property>
+  </row>
+
+  <row slokey="Preverjanje kode etikete" enkey="Label code check" code="BSLB012">
+    <property name="Value">LB_Label_code_check</property>
+  </row>
+
+  <row slokey="Samodejno prepoznavanje mest brez etikete" enkey="Automatic space recognition" code="BSLB013">
+    <property name="Value">LB_Automatic_space_recognition</property>
+  </row>
+
+  <row slokey="Zamik zaradi napake nalepke" enkey="Label fault memory" code="BSLB014">
+    <property name="Value">LB_Label_fault_memory</property>
+  </row>
+
+  <row slokey="Izmet pomanjkljivih etiket na odvzemnem valju" enkey="Discharge faulty labels using the collecting roller" code="BSLB015">
+    <property name="Value">LB_Discharge_faulty_labels</property>
+  </row>
+
+  <row slokey="Etikete med tipalom za zaustavitev podajalnika in »Preverjanje potiska serije«" enkey="Labels between dispenser stop sensor and batch print check" code="BSLB016">
+    <property name="Value">LB_Labels_batch_print_check</property>
+  </row>
+
+  <row slokey="Etikete med tipalom za zaustavitev podajalnika in »Preverjanje kode etikete«" enkey="Labels between dispenser stop sensor and label code check" code="BSLB017">
+    <property name="Value">LB_Labels_label_code_check</property>
+  </row>
+
+  <row slokey="Etikete med tipalom za zaustavitev podajalnika in robom podajalnika" enkey="Number of labels between dispenser stop sensor and dispensing edge" code="BSLB018">
+    <property name="Value">LB_Nr_dispensing_edge</property>
+  </row>
+
+  <row slokey="Preverjanje etiket za recepturo št." enkey="Label check recipe no." code="BSLB019">
+    <property name="Value">LB_label_check_recipe_nr</property>
+  </row>
+
+
+  <!-- 03 -->
+
+  <row slokey="Tiskalnik" enkey="Label printer" code="BSLP001">
+    <property name="Value">LP_Label_printer</property>
+  </row>
+
+  <row slokey="Št. recepture za tiskalnik" enkey="Label printer recipe no." code="BSLP002">
+    <property name="Value">LP_Recipe_nr</property>
+  </row>
+
+  <row slokey="Krmiljenje tiskalnika po zagonu podajalnika" enkey="Label printer trigger after dispenser start" code="BSLP003">
+    <property name="Value">LP_Trigger_value</property>
+    <property name="Unit">LP_Trigger_unit</property>
+  </row>
+
+  <row slokey="Etikete med »Zaznavanje etikete na tiskalniku« in tiskalnikom" enkey="Labels between label registration sensor and printer" code="BSLP004">
+    <property name="Value">LP_Sensor_printer</property>
+  </row>
+
+
+  <!-- 04 -->
+
+  <row slokey="Podatek za potisk serije, vrstica Lot" enkey="Required batch print in line &quot;Lot&quot;" code="BSCS001">
+    <property name="Value">CS_Req_print_line_1</property>
+  </row>
+
+  <row slokey="Podatek za potisk serije, vrstica Exp" enkey="Required batch print in line &quot;Exp&quot;" code="BSCS002">
+    <property name="Value">CS_Req_print_line_2</property>
+  </row>
+
+  <row slokey="Podatek za potisk serije, vrstica Mnf" enkey="Required batch print in line &quot;Mnf&quot;" code="BSCS003">
+    <property name="Value">CS_Req_print_line_3</property>
+  </row>
+
+  
+  <!-- NEW 04 -->
+  <row slokey="Podatek za potisk serije, vrstica 4" enkey="Required batch print line 4" code="BSCS004">
+    <property name="Value">CS_Req_print_line_4</property>
+  </row>
+  
+    <row slokey="Podatek za kodo podatkovne matrike" enkey="Required data matrix code" code="BSCS005">
+    <property name="Value">CS_Req_print_line_matrix</property>
+  </row>
+  
+  
+    <!-- NEW 04  do tle-->
+  
+  <row slokey="Podatek za kodo etikete" enkey="Required label code" code="BSCS006">
+    <property name="Value">CS_Req_label_code</property>
+  </row>
+  
+    <!-- NEW 04 -->
+  <row slokey="Natisni podatek za potisk serije, vrstica Lot" enkey="Print required batch print in line &quot;Lot&quot;" code="BSCS007">
+    <property name="Value">CS_Req_batch_print_in_line_lot</property>
+  </row>
+  
+    <row slokey="Natisni podatek za potisk serije, vrstica Exp" enkey="Print required batch print in line &quot;Exp&quot;" code="BSCS008">
+    <property name="Value">CS_Req_batch_print_in_line_exp</property>
+  </row>
+  
+    <row slokey="Natisni podatek za potisk serije, vrstica Mnf" enkey="Print required batch print in line &quot;Mnf&quot;" code="BSCS009">
+    <property name="Value">CS_Req_batch_print_in_line_mnf</property>
+  </row>
+  
+    <row slokey="Natisni podatek za potisk serije, vrstica 4" enkey="Print required batch print in line 4" code="BSCS010">
+    <property name="Value">CS_Req_batch_print_in_line_4</property>
+  </row>
+
+  <row slokey="Natisni podatek za kodo podatkovne matrike" enkey="Print required data matrix code" code="BSCS011">
+    <property name="Value">CS_Req_batch_print_in_line_matrix</property>
+  </row>
+    <!-- NEW 04 do tle-->
+
+  <row slokey="Podatek za potisk serije, vrstica Lot, število znakov" enkey="Number of characters for required batch print in line &quot;Lot&quot;" code="BSCS012">
+    <property name="Value">CS_Req_Nr_print_line_1</property>
+  </row>
+
+  <row slokey="Podatek za potisk serije, vrstica Exp, število znakov" enkey="Number of characters for required batch print in line &quot;Exp&quot;" code="BSCS013">
+    <property name="Value">CS_Req_Nr_print_line_2</property>
+  </row>
+
+  <row slokey="Podatek za potisk serije, vrstica Mnf, število znakov" enkey="Number of characters for required batch print in line &quot;Mnf&quot;" code="BSCS014">
+    <property name="Value">CS_Req_Nr_print_line_3</property>
+  </row>
+  
+	<!-- NEW 04 --> 
+  <row slokey="Podatek za potisk serije, vrstica 4, število znakov" enkey="Required number of characters for batch print line 4" code="BSCS015">
+    <property name="Value">CS_Req_Nr_print_line_4</property>
+  </row>
+
+  <row slokey="Podatek za kodo podatkovne matrike, število znakov" enkey="Required number of characters for data matrix code" code="BSCS016">
+    <property name="Value">CS_Req_Nr_print_line_matrix</property>
+  </row>
+  
+   <!-- NEW 04 do tle-->
+  <row slokey="Podatek za kodo etikete, število znakov" enkey="Required number of characters in label code" code="BSCS017">
+    <property name="Value">CS_Req_Nr_char_label_code</property>
+  </row>
+
+
+  <!-- 05 -->
+
+  <row slokey="Zaznavanje izdelka Začetek" enkey="Register container Start" code="BSCC001">
+    <property name="Value">CC_Reg_cont_Start_value</property>
+    <property name="Unit">CC_Reg_cont_Start_unit</property>
+  </row>
+
+  <row slokey="Zaznavanje izdelka Konec" enkey="Register container End" code="BSCC002">
+    <property name="Value">CC_Reg_cont_End_value</property>
+    <property name="Unit">CC_Reg_cont_End_unit</property>
+  </row>
+
+  <row slokey="Zagon podajalnika Začetek" enkey="Start label dispenser Start" code="BSCC003">
+    <property name="Value">CC_label_disp_Start_value</property>
+    <property name="Unit">CC_label_disp_Start_unit</property>
+  </row>
+
+  <row slokey="Zagon podajalnika Konec" enkey="Start label dispenser End" code="BSCC004">
+    <property name="Value">CC_label_disp_End_value</property>
+    <property name="Unit">CC_label_disp_End_unit</property>
+  </row>
+
+  <row slokey="Zagon podajalnika Mrtvi čas" enkey="Start label dispenser Lead time" code="BSCC005">
+    <property name="Value">CC_label_disp_Lead_value</property>
+    <property name="Unit">CC_label_disp_Lead_unit</property>
+  </row>
+
+  <row slokey="Vrednotenje preverjanja barvne kode Začetek" enkey="Color code check evaluation Start" code="BSCC006">
+    <property name="Value">CC_CCC_eval_Start_value</property>
+    <property name="Unit">CC_CCC_eval_Start_unit</property>
+  </row>
+
+  <row slokey="Vrednotenje preverjanja barvne kode Konec" enkey="Color code check evaluation End" code="BSCC007">
+    <property name="Value">CC_CCC_eval_End_value</property>
+    <property name="Unit">CC_CCC_eval_End_unit</property>
+  </row>
+
+  <row slokey="Prožilni signal preverjanja barvne kode Začetek" enkey="Color code check trigger signal Start" code="BSCC008">
+    <property name="Value">CC_CCC_Trig_signal_Start_value</property>
+    <property name="Unit">CC_CCC_Trig_signal_Start_unit</property>
+  </row>
+
+  <row slokey="Prožilni signal preverjanja barvne kode Konec" enkey="Color code check trigger signal End" code="BSCC009">
+    <property name="Value">CC_CCC_Trig_signal_End_value</property>
+    <property name="Unit">CC_CCC_Trig_signal_End_unit</property>
+  </row>
+
+  <row slokey="Položaj za izmet etikete Začetek" enkey="Reject label position Start" code="BSCC010">
+    <property name="Value">CC_Rej_pos_Start_value</property>
+    <property name="Unit">CC_Rej_pos_Start_unit</property>
+  </row>
+
+  <row slokey="Položaj za izmet etikete Konec" enkey="Reject label position End" code="BSCC011">
+    <property name="Value">CC_Rej_pos_End_value</property>
+    <property name="Unit">CC_Rej_pos_End_unit</property>
+  </row>
+
+  <row slokey="Preverjanje prisotnosti etikete Začetek" enkey="Check label on container Start" code="BSCC012">
+    <property name="Value">CC_label_cont_Start_value</property>
+    <property name="Unit">CC_label_cont_Start_unit</property>
+  </row>
+
+  <row slokey="Preverjanje prisotnosti etikete Konec" enkey="Check label on container End" code="BSCC013">
+    <property name="Value">CC_label_cont_End_value</property>
+    <property name="Unit">CC_label_cont_End_unit</property>
+  </row>
+
+  <row slokey="Nasprotno preverjanje odvoda Začetek" enkey="Discharge verification Start" code="BSCC014">
+    <property name="Value">CC_Disc_ver_Start_value</property>
+    <property name="Unit">CC_Disc_ver_Start_unit</property>
+  </row>
+
+  <row slokey="Nasprotno preverjanje odvoda Konec" enkey="Discharge verification End" code="BSCC015">
+    <property name="Value">CC_Disc_ver_End_value</property>
+    <property name="Unit">CC_Disc_ver_End_unit</property>
+  </row>
+
+  <row slokey="Nadaljevanje ventilov na izhodnih kolesih Začetek" enkey="Switch discharge wheel valves to next step Start" code="BSCC016">
+    <property name="Value">CC_Switch_disc_Start_value</property>
+    <property name="Unit">CC_Switch_disc_Start_unit</property>
+  </row>
+
+  <row slokey="Nadaljevanje ventilov na izhodnih kolesih Konec" enkey="Switch discharge wheel valves to next step End" code="BSCC017">
+    <property name="Value">CC_Switch_disc_End_value</property>
+    <property name="Unit">CC_Switch_disc_End_unit</property>
+  </row>
+
+  <row slokey="Zaustavitev z določenim končnim položajem Začetek" enkey="Positioned stop Start" code="BSCC018">
+    <property name="Value">CC_Pos_stop_Start_value</property>
+    <property name="Unit">CC_Pos_stop_Start_unit</property>
+  </row>
+
+  <row slokey="Zaustavitev z določenim končnim položajem Konec" enkey="Positioned stop End" code="BSCC019">
+    <property name="Value">CC_Pos_stop_End_value</property>
+    <property name="Unit">CC_Pos_stop_End_unit</property>
+  </row>
+
+  <row slokey="Takt premika Začetek" enkey="Shift cycle Start" code="BSCC020">
+    <property name="Value">CC_Shift_cycle_Start_value</property>
+    <property name="Unit">CC_Shift_cycle_Start_unit</property>
+  </row>
+
+  <row slokey="Takt premika Konec" enkey="Shift cycle End" code="BSCC021">
+    <property name="Value">CC_Shift_cycle_End_value</property>
+    <property name="Unit">CC_Shift_cycle_End_unit</property>
+  </row>
+
+  <row slokey="Sprostitev takta premika Začetek" enkey="Shift-cycle release Start" code="BSCC022">
+    <property name="Value">CC_Shift_release_Start_value</property>
+    <property name="Unit">CC_Shift_release_Start_unit</property>
+  </row>
+
+  <row slokey="Sprostitev takta premika Konec" enkey="Shift-cycle release End" code="BSCC023">
+    <property name="Value">CC_Shift_release_End_value</property>
+    <property name="Unit">CC_Shift_release_End_unit</property>
+  </row>
+
+
+  <!-- 06-->
+
+  <row slokey="01 Višina podajalnika etiket" enkey="01 Height of label dispenser" code="BSMS001">
+    <property name="Value">MS_Height_label_disp_value</property>
+    <property name="Unit">MS_Height_label_disp_unit</property>
+  </row>
+
+  <row slokey="02 Položaj podajalnega jezika" enkey="02 Position of dispenser extension" code="BSMS002">
+    <property name="Value">MS_Pos_disp_ext_value</property>
+    <property name="Unit">MS_Pos_disp_ext_unit</property>
+  </row>
+
+  <row slokey="03 Položaj podajalnega roba" enkey="03 Position of dispensing edge" code="BSMS003">
+    <property name="Value">MS_Pos_disp_edge_value</property>
+    <property name="Unit">MS_Pos_disp_edge_unit</property>
+  </row>
+
+  <row slokey="04 Položaj pritisne plošče" enkey="04 Position of pressure plate" code="BSMS004">
+    <property name="Value">MS_Pos_pressure_plate_value</property>
+    <property name="Unit">MS_Pos_pressure_plate_unit</property>
+  </row>
+
+  <row slokey="05 Položaj podajalnega valja" enkey="05 Position of roller at dispensing edge" code="BSMS005">
+    <property name="Value">MS_Pos_roller_disp_edge_value</property>
+    <property name="Unit">MS_Pos_roller_disp_edge_unit</property>
+  </row>
+
+  <row slokey="06 Višina postaje za preverjanje etiket" enkey="06 Height of label check inspection station" code="BSMS006">
+    <property name="Value">MS_Height_label_insp_stat_value</property>
+    <property name="Unit">MS_Height_label_insp_stat_unit</property>
+  </row>
+
+  <row slokey="07 Položaj postaje za preverjanje etiket" enkey="07 Position of label check inspection station" code="BSMS007">
+    <property name="Value">MS_Pos_label_insp_stat_value</property>
+    <property name="Unit">MS_Pos_label_insp_stat_unit</property>
+  </row>
+
+  <row slokey="08 Višina tiskalnika" enkey="08 Label printer height" code="BSMS008">
+    <property name="Value">MS_Label_print_height_value</property>
+    <property name="Unit">MS_Label_print_height_unit</property>
+  </row>
+
+  <row slokey="09 Položaj tiskalnika" enkey="09 Label printer position" code="BSMS009">
+    <property name="Value">MS_Label_print_pos_value</property>
+    <property name="Unit">MS_Label_print_pos_unit</property>
+  </row>
+
+  <row slokey="10 Tipalo položaja &lt;Zaznavanje etikete na tiskalniku&gt;" enkey="10 Position of label registration sensor for label printer" code="BSMS010">
+    <property name="Value">MS_Pos_label_reg_sensor_print_value</property>
+    <property name="Unit">MS_Pos_label_reg_sensor_print_unit</property>
+  </row>
+
+  <row slokey="11 Položaj vzmeti za prednapetost nihala za odvijanje etiket" enkey="11 Position of pre-load spring for label unwinder shuttle bar" code="BSMS011">
+    <property name="Value">MS_Pos_load_shuttle_bar</property>
+
+  </row>
+
+  <row slokey="12 Položaj napenjalne vzmeti za zavoro odvijalnika etiket" enkey="12 Position of pre-load spring for label unwinder brake" code="BSMS012">
+    <property name="Value">MS_Pos_load_brake</property>
+  </row>
+
+  <row slokey="13 Tipalo položaja &lt;Odčitavanje izdelka&gt;" enkey="13 Position of container registration sensor" code="BSMS013">
+    <property name="Value">MS_Pos_cont_reg_sensor_value</property>
+    <property name="Unit">MS_Pos_cont_reg_sensor_unit</property>
+  </row>
+
+  <row slokey="14 Višina postaje za preverjanje barv" enkey="14 Height of label code check inspection station" code="BSMS014">
+    <property name="Value">MS_Height_insp_stat_value</property>
+    <property name="Unit">MS_Height_insp_stat_unit</property>
+  </row>
+
+  <row slokey="15 Položaj vzmeti za prednapetost pripravljalnega valja" enkey="15 Position of pre-load spring for smoothing roller" code="BSMS015">
+    <property name="Value">MS_Height_load_smooth_roller</property>
+  </row>
+
+  <row slokey="16 Višina tipala &lt;Etiketa na pripravljalnem valju pred odvzemnim valjem&gt;" enkey="16 Height of sensor &quot;Label on smoothing roller before collecting roller&quot;" code="BSMS016" >
+    <property name="Value">MS_Height_sensor_collect_roller_value</property>
+    <property name="Unit">MS_Height_sensor_collect_roller_unit</property>
+  </row>
+
+  <row slokey="17 Položaj vzmeti za prednapetost odvzemnega valja" enkey="17 Position of pre-load spring for rotation roller" code="BSMS017">
+    <property name="Value">MS_Pos_load_spring_rot_roller</property>
+  </row>
+
+  <row slokey="18 Višina tipala &lt;Etiketa manjka&gt;" enkey="18 Height of &quot;label missing&quot; check sensor" code="BSMS018">
+    <property name="Value">MS_Height_miss_sensor_value</property>
+    <property name="Unit">MS_Height_miss_sensor_unit</property>
+  </row>
+
+  <row slokey="19 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 1&gt;" enkey="19 Position of sensor &lt;Good discharge 1 verification&gt;" code="BSMS019">
+    <property name="Value">MS_Pos_disc_1_ver_value</property>
+    <property name="Unit">MS_Pos_disc_1_ver_unit</property>
+  </row>
+
+  <row slokey="20 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 2&gt;" enkey="20 Position of sensor &lt;Good discharge 2 verification&gt;" code="BSMS020">
+    <property name="Value">MS_Pos_disc_2_ver_value</property>
+    <property name="Unit">MS_Pos_disc_2_ver_unit</property>
+  </row>
+
+
+  <!-- 07 -->
+
+  <row slokey="01 Položaj oznake za etiketiranje na vrtljivi sesalni plošči" enkey="01 Position of label reference mark at swivel suction plate" code="BSME001">
+    <property name="Value">ME_Pos_label_ref_mark_value</property>
+    <property name="Unit">ME_Pos_label_ref_mark_unit</property>
+  </row>
+
+  <row slokey="02 Položaj oznake za poravnavo na fiksni sesalni plošči" enkey="02 Position of alignment plate on web cutter" code="BSME002">
+    <property name="Value">ME_Pos_align_plate_value</property>
+    <property name="Unit">ME_Pos_align_plate_unit</property>
+  </row>
+
+  <row slokey="03 Položaj bata za število vrst sesalnih šob" enkey="03 Position of piston for number of suction hole rows" code="BSME003">
+    <property name="Value">ME_Pos_piston_Nr_value</property>
+    <property name="Unit">ME_Pos_piston_Nr_unit</property>
+  </row>
+
+  <row slokey="04 Višina podlage za etikete" enkey="04 Height of label support" code="BSME004">
+    <property name="Value">ME_Height_label_supp_value</property>
+    <property name="Unit">ME_Height_label_supp_unit</property>
+  </row>
+
+  <row slokey="05 Položaj vodila etiket na fiksni sesalni plošči" enkey="05 Position of label guide at fixed suction plate" code="BSME005">
+    <property name="Value">ME_Pos_label_guide_value</property>
+    <property name="Unit">ME_Pos_label_guide_unit</property>	
+  </row>
+
+</rows>
+

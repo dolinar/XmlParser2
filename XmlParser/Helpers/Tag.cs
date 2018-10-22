@@ -37,8 +37,12 @@ namespace MetronikParser.Helpers
         public void SetTagFromElement(XElement element)
         {
             TagName = element.Name.LocalName;
-            TagValue = element.Value;
-            TagPath = getPath(element);
+            if (element.Elements().Count() == 0)
+                TagValue = element.Value;
+            else
+                TagValue = "notLeaf";
+
+            TagPath  = getPath(element);
 
             foreach (XAttribute attribute in element.Attributes())
                 Attributes.Add(attribute.Name.LocalName, attribute.Value);
@@ -47,7 +51,7 @@ namespace MetronikParser.Helpers
         public Tag AddChild(XElement element)
         {
             Tag currentTag = new Tag();
-            SetTagFromElement(element);
+            currentTag.SetTagFromElement(element);
             Children.Add(currentTag);
             return currentTag;
         }

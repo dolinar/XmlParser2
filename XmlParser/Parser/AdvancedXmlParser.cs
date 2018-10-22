@@ -12,6 +12,7 @@ namespace MetronikParser.Parser
 {
     public class AdvancedXmlParser : XmlParser
     {
+
         public AdvancedXmlParser()
         {
             ParsedData = new List<Tag>();
@@ -45,11 +46,9 @@ namespace MetronikParser.Parser
             var elements = Document.XPathSelectElements(path);
             if (elements.Count() == 0)
             {
-                LogWarning("No elements founds for a given path: " + path);
+                LogWarning("No elements founds for given path: " + path);
                 return tags;
             }
-
-
             foreach (var element in elements)
                 addSubtags(tags, element);
 

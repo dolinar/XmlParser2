@@ -81,6 +81,18 @@ namespace xmlTest
             parser.ParseDocument();
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void TestDuplicateAttribute()
+        {
+            XmlParser parser = new SimpleXmlParser();
+            //TextReader t = new StringReader("<xml></xml>");
+            var doc = XDocument.Load(@"<xml att=""123"" att=""1234""></xml>");
+
+            parser.Document = doc;
+            parser.ParseDocument();
+        }
+
         private XmlParser LoadParser()
         {
             XmlParser parser = new SimpleXmlParser();

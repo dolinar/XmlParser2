@@ -158,7 +158,7 @@ namespace xmlTest
 
                 ParserConfig = new Config
                 {
-                    Paths = new List<string>(new string[] { "row" }),
+                    Paths = new List<string>(new string[] { "rows/head" }),
                     RequireChildren = true
                 }
             };
@@ -169,7 +169,12 @@ namespace xmlTest
             {
                 foreach (var e in parser.ParsedData)
                 {
-                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue + " --- " + e.TagPath + "\n");
+                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue);
+                    foreach (var child in e.Children)
+                    {
+                        parser.Log.LogMessage(child.TagName + " --- " + child.TagValue);
+                    }
+                    parser.Log.LogMessage("\n");
                 }
             }
         }
