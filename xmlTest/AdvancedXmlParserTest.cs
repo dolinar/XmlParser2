@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using MetronikParser;
 using MetronikParser.Helpers;
+using MetronikParser.Logger;
 using MetronikParser.Parser;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -10,7 +12,7 @@ namespace xmlTest
 {
     [TestClass]
     public class AdvancedXmlParserTest
-    {
+    { 
         private XmlParser LoadParser()
         {
             XmlParser parser = new AdvancedXmlParser();
@@ -42,13 +44,13 @@ namespace xmlTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(NullReferenceException))]
         public void TestWrongConfigPath()
         {
             XmlParser parser = LoadParser();
             parser.ParserConfig = new Config();
             parser.ParserConfig.Paths = new List<string>(new string[] { "root/ime/doesNotExist" });
             parser.ParseData();
+            Assert.AreEqual(0, parser.ParsedData.Count);
         }
 
         [TestMethod]
@@ -87,8 +89,89 @@ namespace xmlTest
             };
             parser.ParseData();
             Tag t = parser.ParsedData.ElementAt(0);
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            {
+                foreach (var tag in parser.ParsedData)
+                {
+                    parser.Log.LogMessage(tag.TagName + " --- " + tag.TagValue + " --- " + tag.TagPath);
+                }
+            }
             Assert.AreEqual(t.TagValue, "Dolinar");
         }
 
+        [TestMethod]
+        public void TestDescendants()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root/sola" }),
+                RequireChildren = true
+            };
+            parser.ParseData();
+            Tag t = parser.ParsedData.ElementAt(0);
+            //Assert.AreEqual(t.TagValue, "Dolinar");
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            {
+                foreach (var e in t.Children)
+                {
+                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue + " --- " + e.TagPath);
+                }
+            }
+        }
+
+        //[TestMethod]
+        //public void TestDescendants2()
+        //{
+        //    XmlParser parser = LoadParser();
+        //    parser.ParserConfig = new Config
+        //    {
+        //        Paths = new List<string>(new string[] { "root" }),
+        //        RequireChildren = true
+        //    };
+        //    parser.ParseData();
+        //    Tag t = parser.ParsedData.ElementAt(0);
+        //    //Assert.AreEqual(t.TagValue, "Dolinar");
+        //    using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+        //    {
+        //        while (t.TagName != "ime_sole")
+        //        {
+        //            foreach (var e in t.Children)
+        //            {
+
+        //            }
+        //        }
+        //    }
+        //}
+
+        [TestMethod]
+        public void TestBigXml()
+        {
+            ReadXml r = new ReadXml
+            {
+                StringPath = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test2.xml"
+            };
+
+            XmlParser parser = new AdvancedXmlParser
+            {
+                Document = r.ReadFile(),
+
+                ParserConfig = new Config
+                {
+                    Paths = new List<string>(new string[] { "row" }),
+                    RequireChildren = true
+                }
+            };
+
+            parser.ParseData();
+
+            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            {
+                foreach (var e in parser.ParsedData)
+                {
+                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue + " --- " + e.TagPath + "\n");
+                }
+            }
+        }
     }
 }

@@ -12,12 +12,13 @@ namespace MetronikParser.Parser
 {
     public class AdvancedXmlParser : XmlParser
     {
-        private Tag _tag = null;
-
         public AdvancedXmlParser()
         {
             ParsedData = new List<Tag>();
         }
+        /// <summary>
+        /// Reads required paths from Config instance and parses XDocument elements from each path
+        /// </summary>
         public override void ParseData()
         {
             using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
@@ -27,41 +28,68 @@ namespace MetronikParser.Parser
                 LogMessage("retireving data from Config");
                 foreach (var path in ParserConfig.Paths)
                 {
-                    List<Tag> tags = getTagsFromPath(path);
-                    foreach (var tag in tags)
-                    {
-                        ParsedData.Add(tag);
-                    }
+                    LogMessage("retireving data from config paths");
+                    ParsedData.AddRange(getTagsFromPath(path));
                 }
             }
         }
 
+        /// <summary>
+        /// Finds ALL XElements, that are found on a given path.
+        /// </summary>
+        /// <param name="path">Absolute path to certain XElement(s). Delimiter: "/"</param>
+        /// <returns></returns>
         private List<Tag> getTagsFromPath(string path)
         {
             List<Tag> tags = new List<Tag>();
             var elements = Document.XPathSelectElements(path);
             if (elements.Count() == 0)
-                throw new NullReferenceException();
-
-            Tag t;
-            foreach (var element in elements)
             {
-                t = new Tag();
-                t.TagName = element.Name.LocalName;
-                t.TagValue = element.Value;
-                t.Attributes = new Dictionary<string, string>();
-                foreach (XAttribute attribute in element.Attributes())
-                {
-                    t.Attributes.Add(attribute.Name.LocalName, attribute.Value);
-                }
-                tags.Add(t);
+                LogWarning("No elements founds for a given path: " + path);
+                return tags;
             }
 
-            //path += "/" + element.Name.LocalName;
+
+            foreach (var element in elements)
+                addSubtags(tags, element);
 
             return tags;
         }
 
+        /// <summary>
+        /// Adds a Tag instance, made of XElement, to tags list.
+        /// </summary>
+        /// <param name="tags">Tags list</param>
+        /// <param name="element">Is used to create a Tag instance</param>
+        private void addSubtags(List<Tag> tags, XElement element)
+        {
+            Tag t = new Tag();
+            t.SetTagFromElement(element);
+
+            if (ParserConfig.RequireChildren)
+                setTagChildren(t, element);
+
+            tags.Add(t);
+        }
+
+        /// <summary>
+        /// Add element(tag) children to tha parent element(tag)'s Children property
+        /// The class Tag's AddChild() method also calls function SetTagElement which sets all properties 
+        /// </summary>
+        /// <param name="rootTag">Tag instance, made of element's properties</param>
+        /// <param name="element">Is used to find descendants</param>
+        private void setTagChildren(Tag rootTag, XElement element)
+        {
+            foreach (XElement childElement in element.Elements())
+            {
+                Tag childTag = rootTag.AddChild(childElement);
+                setTagChildren(childTag, childElement);
+            }
+        }
+
+        /// <summary>
+        /// Concrete implementation of logging methods
+        /// </summary>
         public override void LogMessage(string message, params object[] args)
         {
             if (Log == null)
@@ -82,7 +110,5 @@ namespace MetronikParser.Parser
                 return;
             Log.LogError(String.Format("ERROR FROM {0}: {1}", this.GetType().ToString(), message));
         }
-
-
     }
 }

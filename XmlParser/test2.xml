@@ -1,11 +1,856 @@
-<root>
-	<ime blabla="123">Rok</ime>
-	<priimek>Dolinar</priimek>
-	<kraj>Javorje 34</kraj>
-	<sola>
-		<ime_sole>FRI</ime_sole>
-		<lokacija>Vecna pot</lokacija>
-	</sola>
-</root>
-
-
+<row>
+<Machine_Recipe><Parameter>
+<Tag>Parametri stroja</Tag>
+<Recipe_Name>2ml_Ø10,75mm_yellow   Label_30x18mm</Recipe_Name>
+<Value>2ml_Ø10,75mm_yellow   Label_30x18mm</Value>
+<Recipe_version>7</Recipe_version>
+<Recipe_state>Sproščeno</Recipe_state>
+<Comment1>test1</Comment1>
+<User>Superuser</User>
+<TimeChange>2017-10-16 16:21</TimeChange>
+</Parameter></Machine_Recipe>
+<Recipe_Group>
+<Parameter><Recipe_Group>
+Parametri stroja
+</Recipe_Group></Parameter>
+<Parameter><Recipe_version>
+7
+</Recipe_version></Parameter>
+<Parameter><State>2 - @ABBE11688_Freigegeben@</State></Parameter>
+<Parameter><State>181</State></Parameter>
+<Parameter><State>test1</State></Parameter>
+<Parameter><State>test2</State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State></State></Parameter>
+<Parameter><State>Superuser</State></Parameter>
+<Parameter><State>16.10.2017 16:21</State></Parameter>
+<Parameter><State>32</State></Parameter>
+<Parameter><State>Hitrost proizvodnjeSprememba parametra10100100%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>01 Transport skozi stroj</Filtergruppe></Parameter>
+<Parameter>
+<Tag>Hitrost proizvodnje</Tag>
+<Value>100</Value>
+<Unit>%</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Hitrost dovodnega trakuSprememba parametra1010030%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Hitrost dovodnega traku</Tag>
+<Value>30</Value>
+<Unit>%</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje barvne kodeSprememba parametra01101 Transport skozi strojVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Preverjanje barvne kode</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje prisotnosti etiketeSprememba parametra01101 Transport skozi strojVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Preverjanje prisotnosti etikete</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Največja hitrost glavnega pogonaSprememba parametra1010084%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Največja hitrost glavnega pogona</Tag>
+<Value>84</Value>
+<Unit>%</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Korak kolesa za transport skozi strojSprememba parametra03001 Transport skozi stroj48UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
+<Parameter>
+<Tag>Korak kolesa za transport skozi stroj</Tag>
+<Value>[48] 0</Value>
+<Unit></Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Najdaljši čas za breztlačno stanje preusmerjevalnega potiskalnikaSprememba parametra060015s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Najdaljši čas za breztlačno stanje preusmerjevalnega potiskalnika</Tag>
+<Value>15</Value>
+<Unit>s</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zakasnitev pomanjkanja izdelkov na dovoduSprememba parametra06003s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zakasnitev pomanjkanja izdelkov na dovodu</Tag>
+<Value>3</Value>
+<Unit>s</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje barvne kode, receptura št.Sprememba parametra01001101 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Preverjanje barvne kode, receptura št.</Tag>
+<Value>11</Value>
+<Unit></Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Hitrost vrtenja izdelka pri preverjanju prisotnosti etiketeSprememba parametra1010010%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Hitrost vrtenja izdelka pri preverjanju prisotnosti etikete</Tag>
+<Value>10</Value>
+<Unit>%</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Izbira odvodaSprememba parametra02001 Transport skozi strojPolnjenje zalogovnikaUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Izbira odvoda</Tag>
+<Value>[Polnjenje zalogovnika] 0</Value>
+<Unit></Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zmanjšanje hitrostiSprememba parametra19010%01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zmanjšanje hitrosti</Tag>
+<Value>10</Value>
+<Unit>%</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Vključena zakasnitev zmanjšanja hitrostiSprememba parametra0.160.02.0s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Vključena zakasnitev zmanjšanja hitrosti</Tag>
+<Value>2.0</Value>
+<Unit>s</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Izključena zakasnitev zmanjšanja hitrostiSprememba parametra0.160.02.0s01 Transport skozi strojUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Izključena zakasnitev zmanjšanja hitrosti</Tag>
+<Value>2.0</Value>
+<Unit>s</Unit>
+<Filter>01 Transport skozi stroj</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podajalnik etiketSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>02 Podajalnik etiket</Filtergruppe></Parameter>
+<Parameter>
+<Tag>Podajalnik etiket</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Naprava za spajanje etiketSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Naprava za spajanje etiket</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Hitrost podajalnikaSprememba parametra101000670izd/min02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Hitrost podajalnika</Tag>
+<Value>670</Value>
+<Unit>izd/min</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Dolžina etikete + razmak med etiketamiSprememba parametra1.0500.034.8mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Dolžina etikete + razmak med etiketami</Tag>
+<Value>34.8</Value>
+<Unit>mm</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Hitrost podajanjaSprememba parametra110050m/min02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Hitrost podajanja</Tag>
+<Value>50</Value>
+<Unit>m/min</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Začetno naraščanje podajalnikaSprememba parametra1.0100.05.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Začetno naraščanje podajalnika</Tag>
+<Value>5.0</Value>
+<Unit>mm</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Končno upadanje podajalnikaSprememba parametra1.0100.05.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Končno upadanje podajalnika</Tag>
+<Value>5.0</Value>
+<Unit>mm</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Naknadno delovanje podajalnikaSprememba parametra1.0255.020.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Naknadno delovanje podajalnika</Tag>
+<Value>20.0</Value>
+<Unit>mm</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Toleranca dolžine etiketeSprememba parametra1.020.02.0mm02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Toleranca dolžine etikete</Tag>
+<Value>2.0</Value>
+<Unit>mm</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Vrednost popravka za hitrost pripraveSprememba parametra-10.010.00.0%02 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Vrednost popravka za hitrost priprave</Tag>
+<Value>0.0</Value>
+<Unit>%</Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje potiska serijeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Preverjanje potiska serije</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje kode etiketeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Preverjanje kode etikete</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Samodejno prepoznavanje mest brez etiketeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Samodejno prepoznavanje mest brez etikete</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zamik zaradi napake nalepkeSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Zamik zaradi napake nalepke</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Izmet pomanjkljivih etiket na odvzemnem valjuSprememba parametra01102 Podajalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Izmet pomanjkljivih etiket na odvzemnem valju</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje potiska serije«Sprememba parametra060602 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje potiska serije«</Tag>
+<Value>6</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje kode etikete«Sprememba parametra060602 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Etikete med tipalom za zaustavitev podajalnika in »Preverjanje kode etikete«</Tag>
+<Value>6</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Etikete med tipalom za zaustavitev podajalnika in robom podajalnikaSprememba parametra0602702 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Etikete med tipalom za zaustavitev podajalnika in robom podajalnika</Tag>
+<Value>27</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje etiket za recepturo št.Sprememba parametra01001302 Podajalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Preverjanje etiket za recepturo št.</Tag>
+<Value>13</Value>
+<Unit></Unit>
+<Filter>02 Podajalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>TiskalnikSprememba parametra01103 Tiskalnik etiketVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>03 Tiskalnik etiket</Filtergruppe></Parameter>
+<Parameter>
+<Tag>Tiskalnik</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>03 Tiskalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Št. recepture za tiskalnikSprememba parametra0100203 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Št. recepture za tiskalnik</Tag>
+<Value>2</Value>
+<Unit></Unit>
+<Filter>03 Tiskalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Krmiljenje tiskalnika po zagonu podajalnikaSprememba parametra0.0100.021.5mm03 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Krmiljenje tiskalnika po zagonu podajalnika</Tag>
+<Value>21.5</Value>
+<Unit>mm</Unit>
+<Filter>03 Tiskalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Etikete med »Zaznavanje etikete na tiskalniku« in tiskalnikomSprememba parametra010403 Tiskalnik etiketUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Etikete med »Zaznavanje etikete na tiskalniku« in tiskalnikom</Tag>
+<Value>4</Value>
+<Unit></Unit>
+<Filter>03 Tiskalnik etiket</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica LotSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>04 Podatek za preverjanje</Filtergruppe></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Lot</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica ExpSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Exp</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica MnfSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Mnf</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica 4Sprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica 4</Tag>
+<Value>[Izklop] 0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za kodo podatkovne matrikeSprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Podatek za kodo podatkovne matrike</Tag>
+<Value>[Izklop] 0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za kodo etiketeSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Podatek za kodo etikete</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Natisni podatek za potisk serije, vrstica LotSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Natisni podatek za potisk serije, vrstica Lot</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Natisni podatek za potisk serije, vrstica ExpSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Natisni podatek za potisk serije, vrstica Exp</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Natisni podatek za potisk serije, vrstica MnfSprememba parametra01104 Podatek za preverjanjeVklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Natisni podatek za potisk serije, vrstica Mnf</Tag>
+<Value>[Vklop] 1</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Natisni podatek za potisk serije, vrstica 4Sprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Natisni podatek za potisk serije, vrstica 4</Tag>
+<Value>[Izklop] 0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Natisni podatek za kodo podatkovne matrikeSprememba parametra01004 Podatek za preverjanjeIzklopUR_RGM_VerriegelnUR_RGM_KYB_02</State></Parameter>
+<Parameter>
+<Tag>Natisni podatek za kodo podatkovne matrike</Tag>
+<Value>[Izklop] 0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica Lot, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Lot, število znakov</Tag>
+<Value>0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica Exp, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Exp, število znakov</Tag>
+<Value>0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica Mnf, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica Mnf, število znakov</Tag>
+<Value>0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za potisk serije, vrstica 4, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za potisk serije, vrstica 4, število znakov</Tag>
+<Value>0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za kodo podatkovne matrike, število znakovSprememba parametra080004 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za kodo podatkovne matrike, število znakov</Tag>
+<Value>0</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Podatek za kodo etikete, število znakovSprememba parametra080804 Podatek za preverjanjeUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Podatek za kodo etikete, število znakov</Tag>
+<Value>8</Value>
+<Unit></Unit>
+<Filter>04 Podatek za preverjanje</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zaznavanje izdelka ZačetekSprememba parametra0.0359.9310.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>05 Cam kontroler</Filtergruppe></Parameter>
+<Parameter>
+<Tag>Zaznavanje izdelka Začetek</Tag>
+<Value>310.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zaznavanje izdelka KonecSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zaznavanje izdelka Konec</Tag>
+<Value>50.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zagon podajalnika ZačetekSprememba parametra0.0359.9215.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zagon podajalnika Začetek</Tag>
+<Value>215.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zagon podajalnika KonecSprememba parametra0.0359.9270.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zagon podajalnika Konec</Tag>
+<Value>270.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zagon podajalnika Mrtvi časSprememba parametra0999920ms05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zagon podajalnika Mrtvi čas</Tag>
+<Value>20</Value>
+<Unit>ms</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Vrednotenje preverjanja barvne kode ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Vrednotenje preverjanja barvne kode Začetek</Tag>
+<Value>0.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Vrednotenje preverjanja barvne kode KonecSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Vrednotenje preverjanja barvne kode Konec</Tag>
+<Value>100.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Prožilni signal preverjanja barvne kode ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Prožilni signal preverjanja barvne kode Začetek</Tag>
+<Value>0.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Prožilni signal preverjanja barvne kode KonecSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Prožilni signal preverjanja barvne kode Konec</Tag>
+<Value>100.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Položaj za izmet etikete ZačetekSprememba parametra0.0359.9350.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Položaj za izmet etikete Začetek</Tag>
+<Value>350.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Položaj za izmet etikete KonecSprememba parametra0.0359.910.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Položaj za izmet etikete Konec</Tag>
+<Value>10.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje prisotnosti etikete ZačetekSprememba parametra0.0359.9100.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Preverjanje prisotnosti etikete Začetek</Tag>
+<Value>100.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Preverjanje prisotnosti etikete KonecSprememba parametra0.0359.9250.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Preverjanje prisotnosti etikete Konec</Tag>
+<Value>250.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Nasprotno preverjanje odvoda ZačetekSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Nasprotno preverjanje odvoda Začetek</Tag>
+<Value>50.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Nasprotno preverjanje odvoda KonecSprememba parametra0.0359.9150.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Nasprotno preverjanje odvoda Konec</Tag>
+<Value>150.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Nadaljevanje ventilov na izhodnih kolesih ZačetekSprememba parametra0.0359.9180.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Nadaljevanje ventilov na izhodnih kolesih Začetek</Tag>
+<Value>180.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Nadaljevanje ventilov na izhodnih kolesih KonecSprememba parametra0.0359.9230.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Nadaljevanje ventilov na izhodnih kolesih Konec</Tag>
+<Value>230.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zaustavitev z določenim končnim položajem ZačetekSprememba parametra0.0359.90.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zaustavitev z določenim končnim položajem Začetek</Tag>
+<Value>0.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Zaustavitev z določenim končnim položajem KonecSprememba parametra0.0359.950.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Zaustavitev z določenim končnim položajem Konec</Tag>
+<Value>50.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Takt premika ZačetekSprememba parametra0.0359.9310.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Takt premika Začetek</Tag>
+<Value>310.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Takt premika KonecSprememba parametra0.0359.9359.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Takt premika Konec</Tag>
+<Value>359.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Sprostitev takta premika ZačetekSprememba parametra0.0359.9120.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Sprostitev takta premika Začetek</Tag>
+<Value>120.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>Sprostitev takta premika KonecSprememba parametra0.0359.9180.0°05 Cam kontrolerPRD_Opti_Level60UR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>Sprostitev takta premika Konec</Tag>
+<Value>180.0</Value>
+<Unit>°</Unit>
+<Filter>05 Cam kontroler</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>01 Višina podajalnika etiketSprememba parametra0.0999.96.006 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>06 Mehanske nastavitve</Filtergruppe></Parameter>
+<Parameter>
+<Tag>01 Višina podajalnika etiket</Tag>
+<Value>6.0</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>02 Položaj podajalnega jezikaSprememba parametra0.0999.921.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>02 Položaj podajalnega jezika</Tag>
+<Value>21.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>03 Položaj podajalnega robaSprememba parametra0.0999.910.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>03 Položaj podajalnega roba</Tag>
+<Value>10.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>04 Položaj pritisne ploščeSprememba parametra0.0999.93.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>04 Položaj pritisne plošče</Tag>
+<Value>3.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>05 Položaj podajalnega valjaSprememba parametra0.0999.945.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>05 Položaj podajalnega valja</Tag>
+<Value>45.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>06 Višina postaje za preverjanje etiketSprememba parametra0.0999.915.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>06 Višina postaje za preverjanje etiket</Tag>
+<Value>15.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>07 Položaj postaje za preverjanje etiketSprememba parametra0.0999.9305.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>07 Položaj postaje za preverjanje etiket</Tag>
+<Value>305.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>08 Višina tiskalnikaSprememba parametra0.0999.927.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>08 Višina tiskalnika</Tag>
+<Value>27.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>09 Položaj tiskalnikaSprememba parametra0.0999.980.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>09 Položaj tiskalnika</Tag>
+<Value>80.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>10 Tipalo položaja &lt;Zaznavanje etikete na tiskalniku&gt;Sprememba parametra0.0999.930.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>10 Tipalo položaja &lt;Zaznavanje etikete na tiskalniku&gt;</Tag>
+<Value>30.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>11 Položaj vzmeti za prednapetost nihala za odvijanje etiketSprememba parametra13306 Mehanske nastavitveLuknja 3UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
+<Parameter>
+<Tag>11 Položaj vzmeti za prednapetost nihala za odvijanje etiket</Tag>
+<Value>[Luknja 3] 3</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>12 Položaj napenjalne vzmeti za zavoro odvijalnika etiketSprememba parametra13206 Mehanske nastavitveLuknja 2UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
+<Parameter>
+<Tag>12 Položaj napenjalne vzmeti za zavoro odvijalnika etiket</Tag>
+<Value>[Luknja 2] 2</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>13 Tipalo položaja &lt;Odčitavanje izdelka&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>13 Tipalo položaja &lt;Odčitavanje izdelka&gt;</Tag>
+<Value>5.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>14 Višina postaje za preverjanje barvSprememba parametra0.0999.9114.006 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>14 Višina postaje za preverjanje barv</Tag>
+<Value>114.0</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>15 Položaj vzmeti za prednapetost pripravljalnega valjaSprememba parametra14206 Mehanske nastavitveLuknja 2UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
+<Parameter>
+<Tag>15 Položaj vzmeti za prednapetost pripravljalnega valja</Tag>
+<Value>[Luknja 2] 2</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>16 Višina tipala &lt;Etiketa na pripravljalnem valju pred odvzemnim valjem&gt;Sprememba parametra0.0999.92.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>16 Višina tipala &lt;Etiketa na pripravljalnem valju pred odvzemnim valjem&gt;</Tag>
+<Value>2.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>17 Položaj vzmeti za prednapetost odvzemnega valjaSprememba parametra14106 Mehanske nastavitveLuknja 1UR_RGM_VerriegelnUR_RGM_KYB_03</State></Parameter>
+<Parameter>
+<Tag>17 Položaj vzmeti za prednapetost odvzemnega valja</Tag>
+<Value>[Luknja 1] 1</Value>
+<Unit></Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>18 Višina tipala &lt;Etiketa manjka&gt;Sprememba parametra0.0999.921.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>18 Višina tipala &lt;Etiketa manjka&gt;</Tag>
+<Value>21.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>19 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 1&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>19 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 1&gt;</Tag>
+<Value>5.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>20 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 2&gt;Sprememba parametra0.0999.95.0mm06 Mehanske nastavitveUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>20 Položaj tipala &lt;Nasprotno preverjanje na odvodu za ustrezne izdelke 2&gt;</Tag>
+<Value>5.0</Value>
+<Unit>mm</Unit>
+<Filter>06 Mehanske nastavitve</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>01 Položaj oznake za etiketiranje na vrtljivi sesalni ploščiSprememba parametra0.0999.90.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter><Filterwechsel></Filterwechsel></Parameter><Parameter><Filtergruppe>07 Mehanske nastavitvene vrednosti ESE</Filtergruppe></Parameter>
+<Parameter>
+<Tag>01 Položaj oznake za etiketiranje na vrtljivi sesalni plošči</Tag>
+<Value>0.0</Value>
+<Unit>mm</Unit>
+<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>02 Položaj oznake za poravnavo na fiksni sesalni ploščiSprememba parametra0.0999.930.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>02 Položaj oznake za poravnavo na fiksni sesalni plošči</Tag>
+<Value>30.0</Value>
+<Unit>mm</Unit>
+<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>03 Položaj bata za število vrst sesalnih šobSprememba parametra2.010.03.007 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>03 Položaj bata za število vrst sesalnih šob</Tag>
+<Value>3.0</Value>
+<Unit></Unit>
+<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>04 Višina podlage za etiketeSprememba parametra0.0999.9117.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>04 Višina podlage za etikete</Tag>
+<Value>117.0</Value>
+<Unit>mm</Unit>
+<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
+<Similar></Similar>
+</Parameter>
+<Parameter><State>05 Položaj vodila etiket na fiksni sesalni ploščiSprememba parametra0.0999.923.0mm07 Mehanske nastavitvene vrednosti ESEUR_RGM_VerriegelnUR_RGM_KYB_01</State></Parameter>
+<Parameter>
+<Tag>05 Položaj vodila etiket na fiksni sesalni plošči</Tag>
+<Value>23.0</Value>
+<Unit>mm</Unit>
+<Filter>07 Mehanske nastavitvene vrednosti ESE</Filter>
+<Similar></Similar>
+</Parameter>
+</Recipe_Group>
+</row>

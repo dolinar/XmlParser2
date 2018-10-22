@@ -11,8 +11,6 @@ namespace MetronikParser.Parser
 
         Config ParserConfig { get; set; }
 
-        List<Tag> ParsedData { get; set; }
-
         void ParseDocument();
 
         void ParseData();

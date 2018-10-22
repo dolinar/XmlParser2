@@ -15,55 +15,33 @@ namespace MetronikParser.Parser
     {
 
         /// <summary>
-        /// Class extending from XmlParser abstract class
+        /// Get all leaf tags, with no need of providing Config instance.
         /// </summary>
-        /// <remarks>
-        /// 
-        /// </remarks>
-
-        List<Tag> _data = null;
-
-        public SimpleXmlParser()
-        {
-            _data = new List<Tag>();
-        }
-
         public override void ParseData()
         {
             using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 base.ParseDocument();
-                List<Tag> tags = GetTags();
-                foreach (var tag in tags)
-                {
-                    _data.Add(tag);
-                }
-                ParsedData = _data;
+                ParsedData = getTags();
             }
         }
 
-        private List<Tag> GetTags()
+        private List<Tag> getTags()
         {
             List<Tag> tags = new List<Tag>();
 
-            List<XElement> list = GetListOfNodes(Document.Root);
+            List<XElement> listOfNodes = GetListOfNodes(Document.Root);
             LogMessage("Finished finding leaf nodes.");
 
-            foreach (XElement e in list)
+            foreach (XElement node in listOfNodes)
             {
-                Tag t = new Tag();
-                t.TagName = e.Name.LocalName;
-                t.TagValue = e.Value;
-                t.Attributes = new Dictionary<string, string>();
-                foreach (XAttribute attribute in e.Attributes())
-                {
-                    t.Attributes.Add(attribute.Name.LocalName, attribute.Value);
-                }
+                Tag tag = new Tag();
+                tag.SetTagFromElement(node);
 
-                tags.Add(t);
+                tags.Add(tag);
             }
 
-            LogMessage("Finished finding node paths. Tags count: " + tags.Count + " Nodes count: " + list.Count);
+            LogMessage("Finished finding node paths. Tags count: " + tags.Count + " Nodes count: " + listOfNodes.Count);
             return tags;
         }
 
@@ -72,25 +50,25 @@ namespace MetronikParser.Parser
         /// </summary>
         /// <param name="elements">Root element of type XElement</param>
         /// <returns>List of all leaf nodes.</returns>
-        private List<XElement> GetListOfNodes(XElement elements)
+        private List<XElement> GetListOfNodes(XElement element)
         {
-            List<XElement> list = new List<XElement>();
+            List<XElement> listOfNodes = new List<XElement>();
             NodeTypes nodeType;
-            foreach (XElement element in elements.Elements())
+            foreach (XElement childElement in element.Elements())
             {
-                nodeType = element.Descendants().Count() > 0 ? NodeTypes.HasChildren : NodeTypes.IsAttribute;
+                nodeType = childElement.Descendants().Count() > 0 ? NodeTypes.HasChildren : NodeTypes.IsAttribute;
 
                 switch (nodeType)
                 {
                     case NodeTypes.IsAttribute:
-                        list.Add(element);
+                        listOfNodes.Add(childElement);
                         break;
                     case NodeTypes.HasChildren:
-                        list.AddRange(GetListOfNodes(element));
+                        listOfNodes.AddRange(GetListOfNodes(childElement));
                         break;
                 }
             }
-            return list;
+            return listOfNodes;
         }
 
         /// <summary>

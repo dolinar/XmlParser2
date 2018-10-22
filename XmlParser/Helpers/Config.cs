@@ -9,5 +9,6 @@ namespace MetronikParser.Helpers
     public class Config
     {
         public List<string> Paths { get; set; }
+        public bool RequireChildren { get; set; }
     }
 }
