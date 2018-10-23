@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="FileReader\FileObject.cs" />
     <Compile Include="FileReader\ReadConfig.cs" />
-    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Helpers\Config.cs" />
     <Compile Include="Logger\ConsoleLogger.cs" />
     <Compile Include="Helpers\Tag.cs" />

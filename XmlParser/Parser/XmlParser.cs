@@ -19,7 +19,7 @@ namespace MetronikParser.Parser
 
         public Config ParserConfig { get; set; }
 
-        public List<Tag> ParsedData { get; protected set; }
+        public Dictionary<string, List<Tag>> ParsedData { get; protected set; }
 
         public abstract void ParseData();
 

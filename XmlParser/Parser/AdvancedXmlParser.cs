@@ -15,7 +15,7 @@ namespace MetronikParser.Parser
 
         public AdvancedXmlParser()
         {
-            ParsedData = new List<Tag>();
+            ParsedData = new Dictionary<string, List<Tag>>();
         }
         /// <summary>
         /// Reads required paths from Config instance and parses XDocument elements from each path
@@ -26,13 +26,29 @@ namespace MetronikParser.Parser
             {
                 base.ParseDocument();
 
+                List<Tag> tags;
                 LogMessage("retireving data from Config");
                 foreach (var path in ParserConfig.Paths)
                 {
                     LogMessage("retireving data from config paths");
-                    ParsedData.AddRange(getTagsFromPath(path));
+                    tags = getTagsListFromPath(path);
+                    checkTagsLength(tags, path);
+
                 }
             }
+        }
+
+        /// <summary>
+        /// Check if there are elements present in given list and act accordingly.
+        /// </summary>
+        /// <param name="tags">List of tags.</param>
+        /// <param name="path">Path to given tags, needed for logging.</param>
+        private void checkTagsLength(List<Tag> tags, string path)
+        {
+            if (tags.Count != 0)
+                ParsedData[tags.First().TagName] = tags;
+            else
+                LogError("No tags found for provided path: " + path);
         }
 
         /// <summary>
@@ -40,7 +56,7 @@ namespace MetronikParser.Parser
         /// </summary>
         /// <param name="path">Absolute path to certain XElement(s). Delimiter: "/"</param>
         /// <returns></returns>
-        private List<Tag> getTagsFromPath(string path)
+        private List<Tag> getTagsListFromPath(string path)
         {
             List<Tag> tags = new List<Tag>();
             var elements = Document.XPathSelectElements(path);
@@ -50,7 +66,7 @@ namespace MetronikParser.Parser
                 return tags;
             }
             foreach (var element in elements)
-                addSubtags(tags, element);
+                addTagFromElement(tags, element);
 
             return tags;
         }
@@ -60,7 +76,7 @@ namespace MetronikParser.Parser
         /// </summary>
         /// <param name="tags">Tags list</param>
         /// <param name="element">Is used to create a Tag instance</param>
-        private void addSubtags(List<Tag> tags, XElement element)
+        private void addTagFromElement(List<Tag> tags, XElement element)
         {
             Tag t = new Tag();
             t.SetTagFromElement(element);
@@ -80,7 +96,7 @@ namespace MetronikParser.Parser
         private void setTagChildren(Tag rootTag, XElement element)
         {
             foreach (XElement childElement in element.Elements())
-            {
+            {   
                 Tag childTag = rootTag.AddChild(childElement);
                 setTagChildren(childTag, childElement);
             }

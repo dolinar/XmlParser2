@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Xml.Linq;
 using MetronikParser;
@@ -40,7 +41,7 @@ namespace xmlTest
                 Paths = new List<string>(new string[] { "root/ime", "root/priimek", "root/sola/ime_sole" })
             };
             parser.ParseData();
-            Assert.AreEqual(5, parser.ParsedData.Count);
+            Assert.AreEqual(3, parser.ParsedData.Count);
         }
 
         [TestMethod]
@@ -62,7 +63,7 @@ namespace xmlTest
                 Paths = new List<string>(new string[] { "root/ime[@testAtt='testAtt']" })
             };
             parser.ParseData();
-            Tag t = parser.ParsedData.ElementAt(0);
+            Tag t = parser.ParsedData["ime"].First();
             Assert.AreEqual(t.TagValue, "Rok");
         }
 
@@ -75,7 +76,7 @@ namespace xmlTest
                 Paths = new List<string>(new string[] { "root/ime[@testAtt2='testAtt2']" })
             };
             parser.ParseData();
-            Tag t = parser.ParsedData.ElementAt(0);
+            Tag t = parser.ParsedData["ime"].ElementAt(0);
             Assert.AreEqual(t.TagValue, "Rok2");
         }
 
@@ -88,14 +89,7 @@ namespace xmlTest
                 Paths = new List<string>(new string[] { "root/priimek" })
             };
             parser.ParseData();
-            Tag t = parser.ParsedData.ElementAt(0);
-            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
-            {
-                foreach (var tag in parser.ParsedData)
-                {
-                    parser.Log.LogMessage(tag.TagName + " --- " + tag.TagValue + " --- " + tag.TagPath);
-                }
-            }
+            Tag t = parser.ParsedData["priimek"].ElementAt(0);
             Assert.AreEqual(t.TagValue, "Dolinar");
         }
 
@@ -109,44 +103,15 @@ namespace xmlTest
                 RequireChildren = true
             };
             parser.ParseData();
-            Tag t = parser.ParsedData.ElementAt(0);
-            //Assert.AreEqual(t.TagValue, "Dolinar");
-            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
-            {
-                foreach (var e in t.Children)
-                {
-                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue + " --- " + e.TagPath);
-                }
-            }
+            Tag t = parser.ParsedData["sola"].ElementAt(0);
+            Assert.AreEqual(t.Children["ime_sole"].ElementAt(0).TagValue, "FRI");
         }
-
-        //[TestMethod]
-        //public void TestDescendants2()
-        //{
-        //    XmlParser parser = LoadParser();
-        //    parser.ParserConfig = new Config
-        //    {
-        //        Paths = new List<string>(new string[] { "root" }),
-        //        RequireChildren = true
-        //    };
-        //    parser.ParseData();
-        //    Tag t = parser.ParsedData.ElementAt(0);
-        //    //Assert.AreEqual(t.TagValue, "Dolinar");
-        //    using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
-        //    {
-        //        while (t.TagName != "ime_sole")
-        //        {
-        //            foreach (var e in t.Children)
-        //            {
-
-        //            }
-        //        }
-        //    }
-        //}
 
         [TestMethod]
         public void TestBigXml()
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             ReadXml r = new ReadXml
             {
                 StringPath = @"C:\Users\dor\source\repos\xmlTest\XmlParser\test2.xml"
@@ -164,17 +129,30 @@ namespace xmlTest
             };
 
             parser.ParseData();
-
+            sw.Stop();
             using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
-                foreach (var e in parser.ParsedData)
+                parser.Log.LogMessage("Time total: " + sw.Elapsed);
+            }
+        }
+
+        [TestMethod]
+        public void testGetListByKey()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root" }),
+                RequireChildren = true
+            };
+            parser.ParseData();
+            Tag rootTag = parser.ParsedData["root"].First();
+            List<Tag> found = rootTag.FindListOfTagsByKey("sola", rootTag.Children);
+            foreach (var item in found)
+            {
+                using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
                 {
-                    parser.Log.LogMessage(e.TagName + " --- " + e.TagValue);
-                    foreach (var child in e.Children)
-                    {
-                        parser.Log.LogMessage(child.TagName + " --- " + child.TagValue);
-                    }
-                    parser.Log.LogMessage("\n");
+                    parser.Log.LogMessage(item.TagName + " --- " + item.TagValue);
                 }
             }
         }

@@ -20,16 +20,16 @@ namespace MetronikParser.Helpers
         public string TagValue { get; set; }
         public string TagPath { get; set; }
         public Dictionary<string, string> Attributes { get; }
-        public List<Tag> Children { get; }
+        public Dictionary<string, List<Tag>> Children { get; }
 
         public Tag()
         {
-            Children = new List<Tag>();
+            Children = new Dictionary<string, List<Tag>>();
             Attributes = new Dictionary<string, string>();
         }
 
         /// <summary>
-        /// 
+        /// Set values of properties for this instance.
         /// </summary>
         /// <param name="element">All needed values for Tag are stored in here</param>
         /// <param name="path">Only needed for setting the Tag TagPath property.</param>
@@ -48,11 +48,19 @@ namespace MetronikParser.Helpers
                 Attributes.Add(attribute.Name.LocalName, attribute.Value);
         }
 
+        /// <summary>
+        /// Create an instance of a Tag from a given element and add it to children
+        /// </summary>
+        /// <param name="element">Source of data for Tag instance</param>
+        /// <returns></returns>
         public Tag AddChild(XElement element)
         {
             Tag currentTag = new Tag();
             currentTag.SetTagFromElement(element);
-            Children.Add(currentTag);
+            if (Children.ContainsKey(currentTag.TagName))
+                Children[currentTag.TagName].Add(currentTag);
+            else
+                Children.Add(currentTag.TagName, new List<Tag> { currentTag });
             return currentTag;
         }
 
@@ -68,6 +76,21 @@ namespace MetronikParser.Helpers
                 return element.Name.LocalName;
 
             return getPath(parent) + "/" + element.Name.LocalName;
+        }
+
+        public List<Tag> FindListOfTagsByKey(string neededKey, Dictionary<string, List<Tag>> nestedDict)
+        {
+            foreach (KeyValuePair<string, List<Tag>> entry in nestedDict)
+            {
+                if (neededKey.Equals(entry.Key))
+                    return entry.Value;
+
+                object nextLevel = nestedDict[entry.Key];
+                if (nextLevel == null)
+                    continue;
+                FindListOfTagsByKey(neededKey, (Dictionary<string, List<Tag>>)nextLevel);
+            }
+            return null;
         }
     }
 }

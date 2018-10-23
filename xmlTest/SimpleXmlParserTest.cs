@@ -8,6 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MetronikParser.Parser;
 using MetronikParser.Logger;
 using MetronikParser.Helpers;
+using System.Collections.Generic;
 
 namespace xmlTest
 {
@@ -140,20 +141,7 @@ namespace xmlTest
         {
             XmlParser parser = LoadParser();
             parser.ParseData();
-            using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
-            {
-                foreach (var e in parser.ParsedData)
-                {
-                    if (e.Attributes.Count > 0)
-                    {
-                        parser.Log.LogMessage(e.TagName + " : " + e.TagValue + " : " + e.Attributes.First().Key + " : " + e.Attributes.First().Value);
-                    } else
-                    {
-                        parser.Log.LogMessage(e.TagName + " : " + e.TagValue);
-                    }
-                }
-            }
-            bool notEmpty = parser.ParsedData.Capacity > 0;
+            bool notEmpty = parser.ParsedData.Count > 0;
             Assert.AreEqual(true, notEmpty);
         }
 
@@ -162,8 +150,8 @@ namespace xmlTest
         {
             XmlParser parser = LoadParser();
             parser.ParseData();
-            Tag t = parser.ParsedData.First();
-            Assert.AreEqual("Rok", t.TagValue);
+            List<Tag> listTag = parser.ParsedData["ime"];
+            Assert.AreEqual("Rok", listTag.First().TagValue);
         }
 
         [TestMethod]
@@ -171,8 +159,8 @@ namespace xmlTest
         {
             XmlParser parser = LoadParser();
             parser.ParseData();
-            Tag t = parser.ParsedData.First();
-            Assert.AreEqual("ime", t.TagName);
+            List<Tag> listTag = parser.ParsedData["ime"];
+            Assert.AreEqual("ime", listTag.First().TagName);
         }
 
         [TestMethod]
@@ -180,8 +168,8 @@ namespace xmlTest
         {
             XmlParser parser = LoadParser();
             parser.ParseData();
-            Tag t = parser.ParsedData.First();
-            Assert.AreEqual("testAtt", t.Attributes.First().Value);
+            List<Tag> listTag = parser.ParsedData["ime"];
+            Assert.AreEqual("testAtt", listTag.First().Attributes.First().Value);
         }
     }
 }

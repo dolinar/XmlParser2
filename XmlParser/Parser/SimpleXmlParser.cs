@@ -26,9 +26,9 @@ namespace MetronikParser.Parser
             }
         }
 
-        private List<Tag> getTags()
+        private Dictionary<string, List<Tag>> getTags()
         {
-            List<Tag> tags = new List<Tag>();
+            Dictionary<string, List<Tag>> tags = new Dictionary<string, List<Tag>>();
 
             List<XElement> listOfNodes = GetListOfNodes(Document.Root);
             LogMessage("Finished finding leaf nodes.");
@@ -38,7 +38,11 @@ namespace MetronikParser.Parser
                 Tag tag = new Tag();
                 tag.SetTagFromElement(node);
 
-                tags.Add(tag);
+                string name = tag.TagName;
+                if (tags.ContainsKey(name))
+                    tags[name].Add(tag);
+                else
+                    tags.Add(name, new List<Tag> { tag });
             }
 
             LogMessage("Finished finding node paths. Tags count: " + tags.Count + " Nodes count: " + listOfNodes.Count);
@@ -56,11 +60,11 @@ namespace MetronikParser.Parser
             NodeTypes nodeType;
             foreach (XElement childElement in element.Elements())
             {
-                nodeType = childElement.Descendants().Count() > 0 ? NodeTypes.HasChildren : NodeTypes.IsAttribute;
+                nodeType = childElement.Descendants().Count() > 0 ? NodeTypes.HasChildren : NodeTypes.IsLeaf;
 
                 switch (nodeType)
                 {
-                    case NodeTypes.IsAttribute:
+                    case NodeTypes.IsLeaf:
                         listOfNodes.Add(childElement);
                         break;
                     case NodeTypes.HasChildren:
@@ -100,6 +104,6 @@ namespace MetronikParser.Parser
     public enum NodeTypes
     {
         HasChildren,
-        IsAttribute
+        IsLeaf
     }
 }
