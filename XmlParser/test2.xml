@@ -12,6 +12,7 @@
   <NodeName>N1BS1</NodeName>
   <head slokey="ppm_typ_class_type_id" enkey="Machine1" code="BSMA001">
     <property name="Value">1</property>
+	<property2 name="ok">2</property2>
   </head>
 
   <head slokey="start_date" enkey="Product_name1" code="BSMA002"> 
@@ -705,10 +706,7 @@
 
   <!-- 07 -->
 
-  <row slokey="01 Položaj oznake za etiketiranje na vrtljivi sesalni plošči" enkey="01 Position of label reference mark at swivel suction plate" code="BSME001">
-    <property name="Value">ME_Pos_label_ref_mark_value</property>
-    <property name="Unit">ME_Pos_label_ref_mark_unit</property>
-  </row>
+xml
 
   <row slokey="02 Položaj oznake za poravnavo na fiksni sesalni plošči" enkey="02 Position of alignment plate on web cutter" code="BSME002">
     <property name="Value">ME_Pos_align_plate_value</property>

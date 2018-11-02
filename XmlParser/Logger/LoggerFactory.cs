@@ -44,6 +44,8 @@ namespace MetronikParser.Logger
             {
                 case "debug":
                     return new DebugLogger();
+                case "console":
+                    return new ConsoleLogger();
                 default:
                     throw new ArgumentException();
             }

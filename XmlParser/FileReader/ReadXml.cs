@@ -25,7 +25,7 @@ namespace MetronikParser
 
                 if (!File.Exists(StringPath))
                 {
-                    throw new FileNotFoundException();
+                    throw new FileNotFoundException("File not found.", StringPath);
                 }
 
                 

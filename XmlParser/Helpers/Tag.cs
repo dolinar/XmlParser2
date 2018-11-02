@@ -92,5 +92,20 @@ namespace MetronikParser.Helpers
             }
             return null;
         }
+
+        /// <summary>
+        /// Add element(tag) children to tha parent element(tag)'s Children property
+        /// The class Tag's AddChild() method also calls function SetTagElement which sets all properties 
+        /// </summary>
+        /// <param name="rootTag">Tag instance, made of element's properties</param>
+        /// <param name="element">Is used to find descendants</param>
+        public void SetTagChildren(Tag rootTag, XElement element)
+        {
+            foreach (XElement childElement in element.Elements())
+            {
+                Tag childTag = rootTag.AddChild(childElement);
+                SetTagChildren(childTag, childElement);
+            }
+        }
     }
 }

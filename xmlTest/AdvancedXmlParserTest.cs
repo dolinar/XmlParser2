@@ -100,11 +100,26 @@ namespace xmlTest
             parser.ParserConfig = new Config
             {
                 Paths = new List<string>(new string[] { "root/sola" }),
-                RequireChildren = true
             };
             parser.ParseData();
             Tag t = parser.ParsedData["sola"].ElementAt(0);
             Assert.AreEqual(t.Children["ime_sole"].ElementAt(0).TagValue, "FRI");
+        }
+
+        [TestMethod]
+        public void TestChildrenOfChildren()
+        {
+            XmlParser parser = LoadParser();
+            parser.ParserConfig = new Config
+            {
+                Paths = new List<string>(new string[] { "root" }),
+            };
+            parser.ParseData();
+
+            Dictionary<string, List<Tag>> children = parser.ParsedData["root"].ElementAt(0).Children["sola"].ElementAt(0).Children;
+
+            Tag tag = children["ime_sole"].ElementAt(0);
+            Assert.AreEqual(tag.TagValue, "FRI");
         }
 
         [TestMethod]
@@ -123,8 +138,7 @@ namespace xmlTest
 
                 ParserConfig = new Config
                 {
-                    Paths = new List<string>(new string[] { "rows/head" }),
-                    RequireChildren = true
+                    Paths = new List<string>(new string[] { "rows/head", "rows", "rows/head/property", "bla", "rows/row" }),
                 }
             };
 
@@ -134,27 +148,28 @@ namespace xmlTest
             {
                 parser.Log.LogMessage("Time total: " + sw.Elapsed);
             }
+            Assert.IsTrue(sw.Elapsed.TotalSeconds < 1, String.Format("Took more than a second {0} for 1000 line XML, not good enough", sw.Elapsed));
         }
 
-        [TestMethod]
-        public void testGetListByKey()
-        {
-            XmlParser parser = LoadParser();
-            parser.ParserConfig = new Config
-            {
-                Paths = new List<string>(new string[] { "root" }),
-                RequireChildren = true
-            };
-            parser.ParseData();
-            Tag rootTag = parser.ParsedData["root"].First();
-            List<Tag> found = rootTag.FindListOfTagsByKey("sola", rootTag.Children);
-            foreach (var item in found)
-            {
-                using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
-                {
-                    parser.Log.LogMessage(item.TagName + " --- " + item.TagValue);
-                }
-            }
-        }
+        //[TestMethod]
+        //public void testGetListByKey()
+        //{
+        //    XmlParser parser = LoadParser();
+        //    parser.ParserConfig = new Config
+        //    {
+        //        Paths = new List<string>(new string[] { "root" }),
+        //        RequireChildren = true
+        //    };
+        //    parser.ParseData();
+        //    Tag rootTag = parser.ParsedData["root"].First();
+        //    List<Tag> found = rootTag.FindListOfTagsByKey("sola", rootTag.Children);
+        //    foreach (var item in found)
+        //    {
+        //        using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+        //        {
+        //            parser.Log.LogMessage(item.TagName + " --- " + item.TagValue);
+        //        }
+        //    }
+        //}
     }
 }

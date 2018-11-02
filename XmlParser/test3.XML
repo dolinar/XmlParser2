@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AML>
+   <Entry>
+      <Comes>2018-04-19 11:49:30</Comes>
+      <Goes>2018-04-19 11:49:31</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:30</Comes>
+      <Goes>2018-04-19 11:50:05</Goes>
+      <Acknowledged>2018-04-19 11:50:02</Acknowledged>
+      <Duration>0 00:00:35</Duration>
+      <Kennung>BES0600 Spleiß-Einrichtung nicht bereit</Kennung>
+      <Text>BES0600 Naprava za spajanje ni pripravljena</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit>2018-04-19 11:49:47</Reaktiviert_Zeit>
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:30</Comes>
+      <Goes>2018-04-19 11:49:31</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KEK3060 ALE Schieberegister gelöscht</Kennung>
+      <Text>KEK3060 Pomikalni register ALE je izbrisan</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:37</Comes>
+      <Goes>2018-04-19 11:50:42</Goes>
+      <Acknowledged />
+      <Duration>0 00:01:05</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:37</Comes>
+      <Goes>2018-04-19 11:53:17</Goes>
+      <Acknowledged />
+      <Duration>0 00:03:40</Duration>
+      <Kennung>KEK3060 ALE Schieberegister gelöscht</Kennung>
+      <Text>KEK3060 Pomikalni register ALE je izbrisan</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:41</Comes>
+      <Goes>2018-04-19 11:49:49</Goes>
+      <Acknowledged>2018-04-19 11:49:59</Acknowledged>
+      <Duration>0 00:00:08</Duration>
+      <Kennung>PVA0700 Vorgabe Kontrolle: Eingabe prüfen</Kennung>
+      <Text>PVA0700 Preverjanje podatka: Preverite vnos</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:49</Comes>
+      <Goes>2018-04-19 11:49:50</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0603 Tinte Druckwerk fast leer</Kennung>
+      <Text>KED0603 Kmalu bo zmanjkalo črnila tiskalnika (84P2, 84K2, 85K1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:49</Comes>
+      <Goes>2018-04-19 11:49:50</Goes>
+      <Acknowledged>2018-04-19 11:49:57</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0120 Störung Druckwerk</Kennung>
+      <Text>KED0120 Motnja tiskalnika (84P2, 84K2, 85K1)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:49:49</Comes>
+      <Goes>2018-04-19 11:49:50</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0610 Druckwerk nicht bereit</Kennung>
+      <Text>KED0610 Tiskalnik ni pripravljen (84P2, 84K2, 85K1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:50:06</Comes>
+      <Goes>2018-04-19 11:50:19</Goes>
+      <Acknowledged>2018-04-19 11:50:11</Acknowledged>
+      <Duration>0 00:00:13</Duration>
+      <Kennung>BES0600 Spleiß-Einrichtung nicht bereit</Kennung>
+      <Text>BES0600 Naprava za spajanje ni pripravljena</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit>2018-04-19 11:50:08</Reaktiviert_Zeit>
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:50:20</Comes>
+      <Goes>2018-04-19 11:50:46</Goes>
+      <Acknowledged>2018-04-19 11:50:43</Acknowledged>
+      <Duration>0 00:00:26</Duration>
+      <Kennung>BES0600 Spleiß-Einrichtung nicht bereit</Kennung>
+      <Text>BES0600 Naprava za spajanje ni pripravljena</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit>2018-04-19 11:50:35</Reaktiviert_Zeit>
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:51:35</Comes>
+      <Goes>2018-04-19 11:51:36</Goes>
+      <Acknowledged>2018-04-19 11:52:18</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>TDA0816 Objekte aus Durchtransport entnehmen</Kennung>
+      <Text>TDA0816 Odstrani vsebnike iz transportnega sistema</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:51:51</Comes>
+      <Goes>2018-04-19 11:52:29</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:38</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:54:02</Comes>
+      <Goes>2018-04-19 11:54:29</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:27</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:54:36</Comes>
+      <Goes>2018-04-19 11:54:38</Goes>
+      <Acknowledged>2018-04-19 11:55:32</Acknowledged>
+      <Duration>0 00:00:02</Duration>
+      <Kennung>PEE0400 Überwachung Etikettenanwesenheitskontrolle</Kennung>
+      <Text>PEE0400 Nadzor preverjanja prisotnosti etikete (96B1)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:54:49</Comes>
+      <Goes>2018-04-19 11:55:30</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:41</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:55:46</Comes>
+      <Goes>2018-04-19 11:56:04</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:18</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:56:04</Comes>
+      <Goes>2018-04-19 11:56:10</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:06</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:56:40</Comes>
+      <Goes>2018-04-19 11:56:52</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:12</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:57:02</Comes>
+      <Goes>2018-04-19 11:57:11</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:09</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:57:40</Comes>
+      <Goes>2018-04-19 11:58:04</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:24</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:57:47</Comes>
+      <Goes>2018-04-19 11:57:48</Goes>
+      <Acknowledged>2018-04-19 11:58:33</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PEE0400 Überwachung Etikettenanwesenheitskontrolle</Kennung>
+      <Text>PEE0400 Nadzor preverjanja prisotnosti etikete (96B1)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:57:52</Comes>
+      <Goes>2018-04-19 11:58:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:55</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:59:19</Comes>
+      <Goes>2018-04-19 11:59:29</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:10</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 11:59:53</Comes>
+      <Goes>2018-04-19 12:00:06</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:13</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:00:27</Comes>
+      <Goes>2018-04-19 12:00:36</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:09</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:01:02</Comes>
+      <Goes>2018-04-19 12:01:09</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:07</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:01:34</Comes>
+      <Goes>2018-04-19 12:01:40</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:06</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:02:07</Comes>
+      <Goes>2018-04-19 12:02:18</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:11</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:02:34</Comes>
+      <Goes>2018-04-19 12:02:35</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:02:42</Comes>
+      <Goes>2018-04-19 12:02:49</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:07</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:02:53</Comes>
+      <Goes>2018-04-19 12:03:14</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:21</Duration>
+      <Kennung>TEA3000 Abstechschieber entlüftet</Kennung>
+      <Text>TEA3000 Potiskalnik za preusmeritev je odzračen (62S1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:03:30</Comes>
+      <Goes>2018-04-19 12:03:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:17</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:04:08</Comes>
+      <Goes>2018-04-19 12:04:26</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:18</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:04:43</Comes>
+      <Goes>2018-04-19 12:04:55</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:12</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:05:17</Comes>
+      <Goes>2018-04-19 12:05:22</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:05</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:05:51</Comes>
+      <Goes>2018-04-19 12:06:00</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:09</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:06:24</Comes>
+      <Goes>2018-04-19 12:06:25</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:06:26</Comes>
+      <Goes>2018-04-19 12:06:34</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:08</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:06:59</Comes>
+      <Goes>2018-04-19 12:07:10</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:11</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:07:32</Comes>
+      <Goes>2018-04-19 12:07:42</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:10</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:08:07</Comes>
+      <Goes>2018-04-19 12:08:21</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:14</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:08:18</Comes>
+      <Goes>2018-04-19 12:08:33</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:15</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:08:34</Comes>
+      <Goes>2018-04-19 12:08:39</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:05</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:09:03</Comes>
+      <Goes>2018-04-19 12:09:14</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:11</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:09:28</Comes>
+      <Goes>2018-04-19 12:09:30</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:02</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:09:47</Comes>
+      <Goes>2018-04-19 12:09:51</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:04</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:09:52</Comes>
+      <Goes>2018-04-19 12:10:04</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:12</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:09:52</Comes>
+      <Goes>2018-04-19 12:09:53</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:01</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:10:04</Comes>
+      <Goes>2018-04-19 12:10:21</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:17</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:10:45</Comes>
+      <Goes>2018-04-19 12:10:55</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:10</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:11:21</Comes>
+      <Goes>2018-04-19 12:11:34</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:13</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:11:58</Comes>
+      <Goes>2018-04-19 12:12:11</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:13</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:12:33</Comes>
+      <Goes>2018-04-19 12:12:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:14</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:12:43</Comes>
+      <Goes>2018-04-19 12:13:22</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:39</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:13:49</Comes>
+      <Goes>2018-04-19 12:14:08</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:19</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:14:27</Comes>
+      <Goes>2018-04-19 12:14:35</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:08</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:15:02</Comes>
+      <Goes>2018-04-19 12:15:10</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:08</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:15:36</Comes>
+      <Goes>2018-04-19 12:15:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:11</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:16:08</Comes>
+      <Goes>2018-04-19 12:16:17</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:09</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:16:22</Comes>
+      <Goes>2018-04-19 12:16:29</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:07</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:16:28</Comes>
+      <Goes>2018-04-19 12:17:11</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:43</Duration>
+      <Kennung>TEA3000 Abstechschieber entlüftet</Kennung>
+      <Text>TEA3000 Potiskalnik za preusmeritev je odzračen (62S1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:17:25</Comes>
+      <Goes>2018-04-19 12:17:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:22</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:17:30</Comes>
+      <Goes>2018-04-19 12:17:31</Goes>
+      <Acknowledged>2018-04-19 12:19:00</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:17:49</Comes>
+      <Goes>2018-04-19 12:18:22</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:33</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:17:58</Comes>
+      <Goes>2018-04-19 12:18:13</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:15</Duration>
+      <Kennung>MAA5301 Auslaufmagazin 1 voll</Kennung>
+      <Text>MAA5301 Zalogovnik odvoda 1 je poln (102B1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:18:27</Comes>
+      <Goes>2018-04-19 12:19:02</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:35</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:18:45</Comes>
+      <Goes>2018-04-19 12:18:49</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:04</Duration>
+      <Kennung>TEA3000 Abstechschieber entlüftet</Kennung>
+      <Text>TEA3000 Potiskalnik za preusmeritev je odzračen (62S1)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:19:06</Comes>
+      <Goes>2018-04-19 12:19:07</Goes>
+      <Acknowledged>2018-04-19 12:19:12</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:19:14</Comes>
+      <Goes>2018-04-19 12:19:15</Goes>
+      <Acknowledged>2018-04-19 12:20:22</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:19:22</Comes>
+      <Goes>2018-04-19 12:20:18</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:56</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:20:26</Comes>
+      <Goes>2018-04-19 12:20:27</Goes>
+      <Acknowledged>2018-04-19 12:20:34</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:20:36</Comes>
+      <Goes>2018-04-19 12:20:37</Goes>
+      <Acknowledged>2018-04-19 12:20:39</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:20:42</Comes>
+      <Goes>2018-04-19 12:20:43</Goes>
+      <Acknowledged>2018-04-19 12:20:43</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:20:46</Comes>
+      <Goes>2018-04-19 12:20:47</Goes>
+      <Acknowledged>2018-04-19 12:21:25</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:20:48</Comes>
+      <Goes>2018-04-19 12:21:23</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:35</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:21:28</Comes>
+      <Goes>2018-04-19 12:21:29</Goes>
+      <Acknowledged>2018-04-19 12:21:34</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:21:33</Comes>
+      <Goes>2018-04-19 12:23:35</Goes>
+      <Acknowledged />
+      <Duration>0 00:02:02</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:22:21</Comes>
+      <Goes>2018-04-19 12:22:46</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:25</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:23:23</Comes>
+      <Goes>2018-04-19 12:23:25</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:02</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:24:02</Comes>
+      <Goes>2018-04-19 12:26:16</Goes>
+      <Acknowledged />
+      <Duration>0 00:02:14</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:26:19</Comes>
+      <Goes>2018-04-19 12:26:20</Goes>
+      <Acknowledged>2018-04-19 12:26:23</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:26:26</Comes>
+      <Goes>2018-04-19 12:26:27</Goes>
+      <Acknowledged>2018-04-19 12:26:28</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:26:30</Comes>
+      <Goes>2018-04-19 12:26:31</Goes>
+      <Acknowledged>2018-04-19 12:26:49</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:26:33</Comes>
+      <Goes>2018-04-19 12:26:50</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:17</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:27:00</Comes>
+      <Goes>2018-04-19 12:27:01</Goes>
+      <Acknowledged>2018-04-19 12:27:18</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:27:02</Comes>
+      <Goes>2018-04-19 12:27:18</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:16</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:27:23</Comes>
+      <Goes>2018-04-19 12:27:24</Goes>
+      <Acknowledged>2018-04-19 12:27:26</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:27:30</Comes>
+      <Goes>2018-04-19 12:27:31</Goes>
+      <Acknowledged>2018-04-19 12:28:04</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:27:32</Comes>
+      <Goes>2018-04-19 12:28:14</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:42</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:28:16</Comes>
+      <Goes>2018-04-19 12:28:17</Goes>
+      <Acknowledged>2018-04-19 12:28:18</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>kercmto1</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:28:23</Comes>
+      <Goes>2018-04-19 12:28:31</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:08</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:30:13</Comes>
+      <Goes>2018-04-19 12:54:02</Goes>
+      <Acknowledged />
+      <Duration>0 00:23:49</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:30:31</Comes>
+      <Goes>2018-04-19 12:31:12</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:41</Duration>
+      <Kennung>MAS5400 Schlechtauslaufmagazin voll</Kennung>
+      <Text>MAS5400 Zalogovnik odvoda neustreznih izdelkov je poln (103B2)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:54:25</Comes>
+      <Goes>2018-04-19 13:01:39</Goes>
+      <Acknowledged />
+      <Duration>0 00:07:14</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 12:54:25</Comes>
+      <Goes>2018-04-19 13:08:09</Goes>
+      <Acknowledged>2018-04-19 13:14:23</Acknowledged>
+      <Duration>0 00:13:44</Duration>
+      <Kennung>ABB0110 Störung Kommunikation Bedienterminal</Kennung>
+      <Text>ABB0110 Alarm komunikacije terminala za upravljanje (41A2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit>2018-04-19 13:08:08</Reaktiviert_Zeit>
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:02:01</Comes>
+      <Goes>2018-04-19 13:07:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:05:46</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:08:08</Comes>
+      <Goes>2018-04-19 13:34:54</Goes>
+      <Acknowledged />
+      <Duration>0 00:26:46</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:27:35</Comes>
+      <Goes>2018-04-19 13:31:52</Goes>
+      <Acknowledged />
+      <Duration>0 00:04:17</Duration>
+      <Kennung>KEK3010 ALE nicht eingelernt</Kennung>
+      <Text>KEK3010 Učenje ALE ni opravljeno</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:28:07</Comes>
+      <Goes>2018-04-19 13:30:06</Goes>
+      <Acknowledged />
+      <Duration>0 00:01:59</Duration>
+      <Kennung>KEK3020 ALE Etikett entnehmen</Kennung>
+      <Text>KEK3020 Odstranite etiketo ALE</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:29:16</Comes>
+      <Goes>2018-04-19 13:29:17</Goes>
+      <Acknowledged>2018-04-19 13:29:56</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0400 Überwachung Etikett einlesen Druckwerk</Kennung>
+      <Text>KED0400 Nadzor zaznavanja etiket na tiskalniku (78B2, 84B7)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:30:11</Comes>
+      <Goes>2018-04-19 13:30:12</Goes>
+      <Acknowledged>2018-04-19 13:30:45</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0700 Position Etikettencodekontrolle eingelernt</Kennung>
+      <Text>PVC0700 Položaj preverjanja kode etikete je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:30:11</Comes>
+      <Goes>2018-04-19 13:30:12</Goes>
+      <Acknowledged>2018-04-19 13:30:46</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0703 Position Chargendruckkontrolle eingelernt</Kennung>
+      <Text>PVC0703 Položaj preverjanja potiska serije je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:30:58</Comes>
+      <Goes>2018-04-19 13:30:59</Goes>
+      <Acknowledged>2018-04-19 13:31:14</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC2000 Summenfehler Chargendruck falsch</Kennung>
+      <Text>PVC2000 Napaka vsote, napačen potisk serije (88A1, 93B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:31:52</Comes>
+      <Goes>2018-04-19 13:31:53</Goes>
+      <Acknowledged>2018-04-19 13:32:36</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KEK3030 ALE-Einlernen beendet</Kennung>
+      <Text>KEK3030 Učenje ALE je končano</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:33:19</Comes>
+      <Goes>2018-04-19 13:33:41</Goes>
+      <Acknowledged>2018-04-19 13:34:54</Acknowledged>
+      <Duration>0 00:00:22</Duration>
+      <Kennung>PVC2000 Summenfehler Chargendruck falsch</Kennung>
+      <Text>PVC2000 Napaka vsote, napačen potisk serije (88A1, 93B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit>2018-04-19 13:33:40</Reaktiviert_Zeit>
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:33:19</Comes>
+      <Goes>2018-04-19 13:33:20</Goes>
+      <Acknowledged>2018-04-19 13:34:55</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC2001 Summenfehler Etikettencode falsch</Kennung>
+      <Text>PVC2001 Napaka vsote, napačna koda etikete (88A1, 93B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:35:08</Comes>
+      <Goes>2018-04-19 13:35:09</Goes>
+      <Acknowledged>2018-04-19 13:35:19</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVD2000 Summenfehler Farbcode falsch</Kennung>
+      <Text>PVD2000 Napaka vsote, napačna barvna koda (88A1, 91B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>6</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:35:16</Comes>
+      <Goes>2018-04-22 19:04:12</Goes>
+      <Acknowledged />
+      <Duration>3 05:28:56</Duration>
+      <Kennung>PVD9000 Servicefunktion: Signalauswertung Farbcodekontrolle deaktiviert</Kennung>
+      <Text>PVD9000 Servisna funkcija: Izključeno vrednotenje signala preverjanja barvne kode</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:35:31</Comes>
+      <Goes>2018-04-19 13:35:42</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:11</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:36:02</Comes>
+      <Goes>2018-04-19 13:42:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:06:45</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:38:18</Comes>
+      <Goes>2018-04-19 13:41:52</Goes>
+      <Acknowledged />
+      <Duration>0 00:03:34</Duration>
+      <Kennung>KEK3010 ALE nicht eingelernt</Kennung>
+      <Text>KEK3010 Učenje ALE ni opravljeno</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:38:45</Comes>
+      <Goes>2018-04-19 13:40:05</Goes>
+      <Acknowledged />
+      <Duration>0 00:01:20</Duration>
+      <Kennung>KEK3020 ALE Etikett entnehmen</Kennung>
+      <Text>KEK3020 Odstranite etiketo ALE</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:39:24</Comes>
+      <Goes>2018-04-19 13:39:25</Goes>
+      <Acknowledged>2018-04-19 13:39:54</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0400 Überwachung Etikett einlesen Druckwerk</Kennung>
+      <Text>KED0400 Nadzor zaznavanja etiket na tiskalniku (78B2, 84B7)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:40:47</Comes>
+      <Goes>2018-04-19 13:40:48</Goes>
+      <Acknowledged>2018-04-19 13:40:58</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0700 Position Etikettencodekontrolle eingelernt</Kennung>
+      <Text>PVC0700 Položaj preverjanja kode etikete je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:40:47</Comes>
+      <Goes>2018-04-19 13:40:48</Goes>
+      <Acknowledged>2018-04-19 13:41:06</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0703 Position Chargendruckkontrolle eingelernt</Kennung>
+      <Text>PVC0703 Položaj preverjanja potiska serije je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:41:52</Comes>
+      <Goes>2018-04-19 13:41:53</Goes>
+      <Acknowledged>2018-04-19 13:42:43</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KEK3030 ALE-Einlernen beendet</Kennung>
+      <Text>KEK3030 Učenje ALE je končano</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:43:00</Comes>
+      <Goes>2018-04-19 13:43:01</Goes>
+      <Acknowledged>2018-04-19 13:43:28</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0400 Überwachung Etikett einlesen Druckwerk</Kennung>
+      <Text>KED0400 Nadzor zaznavanja etiket na tiskalniku (78B2, 84B7)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:43:46</Comes>
+      <Goes>2018-04-22 19:04:12</Goes>
+      <Acknowledged />
+      <Duration>3 05:20:26</Duration>
+      <Kennung>MAA5302 Auslaufmagazin 2 voll</Kennung>
+      <Text>MAA5302 Zalogovnik odvoda 2 je poln (102B3)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:43:54</Comes>
+      <Goes>2018-04-19 13:51:15</Goes>
+      <Acknowledged />
+      <Duration>0 00:07:21</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:46:26</Comes>
+      <Goes>2018-04-19 13:49:47</Goes>
+      <Acknowledged />
+      <Duration>0 00:03:21</Duration>
+      <Kennung>KEK3010 ALE nicht eingelernt</Kennung>
+      <Text>KEK3010 Učenje ALE ni opravljeno</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:46:33</Comes>
+      <Goes>2018-04-19 13:47:32</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:59</Duration>
+      <Kennung>KEK3020 ALE Etikett entnehmen</Kennung>
+      <Text>KEK3020 Odstranite etiketo ALE</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:47:04</Comes>
+      <Goes>2018-04-19 13:47:05</Goes>
+      <Acknowledged>2018-04-19 13:47:24</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>KED0400 Überwachung Etikett einlesen Druckwerk</Kennung>
+      <Text>KED0400 Nadzor zaznavanja etiket na tiskalniku (78B2, 84B7)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:47:45</Comes>
+      <Goes>2018-04-19 13:47:46</Goes>
+      <Acknowledged>2018-04-19 13:48:16</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0500 Chargendruck falsch</Kennung>
+      <Text>PVC0500 Napačen potisk serije (88A1, 93B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:47:45</Comes>
+      <Goes>2018-04-19 13:47:46</Goes>
+      <Acknowledged>2018-04-19 13:48:17</Acknowledged>
+      <Duration>0 00:00:01</Duration>
+      <Kennung>PVC0501 Etikettencode falsch</Kennung>
+      <Text>PVC0501 Napačna koda etikete (88A1, 93B2)</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>4</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:48:00</Comes>
+      <Goes>2018-04-19 13:48:29</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:29</Duration>
+      <Kennung>KEK3020 ALE Etikett entnehmen</Kennung>
+      <Text>KEK3020 Odstranite etiketo ALE</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:48:57</Comes>
+      <Goes>2018-04-19 13:48:59</Goes>
+      <Acknowledged>2018-04-19 13:49:06</Acknowledged>
+      <Duration>0 00:00:02</Duration>
+      <Kennung>PVC0700 Position Etikettencodekontrolle eingelernt</Kennung>
+      <Text>PVC0700 Položaj preverjanja kode etikete je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:48:57</Comes>
+      <Goes>2018-04-19 13:48:59</Goes>
+      <Acknowledged>2018-04-19 13:49:08</Acknowledged>
+      <Duration>0 00:00:02</Duration>
+      <Kennung>PVC0703 Position Chargendruckkontrolle eingelernt</Kennung>
+      <Text>PVC0703 Položaj preverjanja potiska serije je naučen</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 13:49:47</Comes>
+      <Goes>2018-04-19 13:49:49</Goes>
+      <Acknowledged>2018-04-19 13:51:14</Acknowledged>
+      <Duration>0 00:00:02</Duration>
+      <Kennung>KEK3030 ALE-Einlernen beendet</Kennung>
+      <Text>KEK3030 Učenje ALE je končano</Text>
+      <User>Bausch Stroebel</User>
+      <Comment />
+      <Alarmclass_Number>2</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-19 14:02:33</Comes>
+      <Goes>2018-04-22 19:04:12</Goes>
+      <Acknowledged />
+      <Duration>3 05:01:39</Duration>
+      <Kennung>AST1100 Verkleidung offen</Kennung>
+      <Text>AST1100 Obloga odprta</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+   <Entry>
+      <Comes>2018-04-22 19:03:21</Comes>
+      <Goes>2018-04-22 19:04:12</Goes>
+      <Acknowledged />
+      <Duration>0 00:00:51</Duration>
+      <Kennung>KEK0617 Aufwickler nicht bereit</Kennung>
+      <Text>KEK0617 Navijalnik ni pripravljen (81M2, 82B4)</Text>
+      <User />
+      <Comment />
+      <Alarmclass_Number>1</Alarmclass_Number>
+      <Reaktiviert_Zeit />
+   </Entry>
+</AML>
