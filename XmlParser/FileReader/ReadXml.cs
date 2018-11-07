@@ -19,16 +19,11 @@ namespace MetronikParser
             using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 if (StringPath == null)
-                {
                     throw new ArgumentNullException();
-                }
 
                 if (!File.Exists(StringPath))
-                {
                     throw new FileNotFoundException("File not found.", StringPath);
-                }
 
-                
                 return XDocument.Load(StringPath);
                 
             }

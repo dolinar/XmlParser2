@@ -40,7 +40,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root/ime", "root/priimek", "root/sola/ime_sole" })
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Assert.AreEqual(3, parser.ParsedData.Count);
         }
 
@@ -50,7 +50,7 @@ namespace xmlTest
             XmlParser parser = LoadParser();
             parser.ParserConfig = new Config();
             parser.ParserConfig.Paths = new List<string>(new string[] { "root/ime/doesNotExist" });
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Assert.AreEqual(0, parser.ParsedData.Count);
         }
 
@@ -62,7 +62,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root/ime[@testAtt='testAtt']" })
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Tag t = parser.ParsedData["ime"].First();
             Assert.AreEqual(t.TagValue, "Rok");
         }
@@ -75,7 +75,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root/ime[@testAtt2='testAtt2']" })
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Tag t = parser.ParsedData["ime"].ElementAt(0);
             Assert.AreEqual(t.TagValue, "Rok2");
         }
@@ -88,7 +88,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root/priimek" })
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Tag t = parser.ParsedData["priimek"].ElementAt(0);
             Assert.AreEqual(t.TagValue, "Dolinar");
         }
@@ -101,7 +101,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root/sola" }),
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             Tag t = parser.ParsedData["sola"].ElementAt(0);
             Assert.AreEqual(t.Children["ime_sole"].ElementAt(0).TagValue, "FRI");
         }
@@ -114,7 +114,7 @@ namespace xmlTest
             {
                 Paths = new List<string>(new string[] { "root" }),
             };
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
 
             Dictionary<string, List<Tag>> children = parser.ParsedData["root"].ElementAt(0).Children["sola"].ElementAt(0).Children;
 
@@ -142,7 +142,7 @@ namespace xmlTest
                 }
             };
 
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             sw.Stop();
             using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {

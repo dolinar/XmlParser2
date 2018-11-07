@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using MetronikParser;
 using MetronikParser.Helpers;
+using MetronikParser.Logger;
 using MetronikParser.Parser;
 
 namespace Test
@@ -42,9 +43,8 @@ namespace Test
                 {
                     Paths = new List<string>(new string[] { "rows/head", "rows/row" }),
                 };
-
                     
-                parser.ParseData();
+                parser.ParseData(LoggerType.DEBUG);
                 return parser.ParsedData;
             } catch (FileNotFoundException fnfException)
             {
@@ -61,6 +61,12 @@ namespace Test
             } catch (ArgumentNullException anException)
             {
                 Console.WriteLine(anException.Message);
+                Console.WriteLine("Click any key to exit the program");
+                Console.ReadKey();
+                Environment.Exit(1);
+            } catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
                 Console.WriteLine("Click any key to exit the program");
                 Console.ReadKey();
                 Environment.Exit(1);

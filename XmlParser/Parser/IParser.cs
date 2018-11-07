@@ -13,6 +13,6 @@ namespace MetronikParser.Parser
 
         void ParseDocument();
 
-        void ParseData();
+        void ParseData(LoggerType type);
     }
 }

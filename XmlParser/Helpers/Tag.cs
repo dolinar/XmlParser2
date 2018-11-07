@@ -7,6 +7,7 @@ using System.Xml.Linq;
 
 namespace MetronikParser.Helpers
 {
+    
     public class Tag 
     {
         public bool IsNode
@@ -78,34 +79,25 @@ namespace MetronikParser.Helpers
             return getPath(parent) + "/" + element.Name.LocalName;
         }
 
-        public List<Tag> FindListOfTagsByKey(string neededKey, Dictionary<string, List<Tag>> nestedDict)
-        {
-            foreach (KeyValuePair<string, List<Tag>> entry in nestedDict)
-            {
-                if (neededKey.Equals(entry.Key))
-                    return entry.Value;
-
-                object nextLevel = nestedDict[entry.Key];
-                if (nextLevel == null)
-                    continue;
-                FindListOfTagsByKey(neededKey, (Dictionary<string, List<Tag>>)nextLevel);
-            }
-            return null;
-        }
-
         /// <summary>
         /// Add element(tag) children to tha parent element(tag)'s Children property
         /// The class Tag's AddChild() method also calls function SetTagElement which sets all properties 
         /// </summary>
         /// <param name="rootTag">Tag instance, made of element's properties</param>
         /// <param name="element">Is used to find descendants</param>
-        public void SetTagChildren(Tag rootTag, XElement element)
+        public void SetChildren(Tag rootTag, XElement element)
         {
             foreach (XElement childElement in element.Elements())
             {
                 Tag childTag = rootTag.AddChild(childElement);
-                SetTagChildren(childTag, childElement);
+                SetChildren(childTag, childElement);
             }
+        }
+
+        public override string ToString()
+        {
+            
+            return base.ToString();
         }
     }
 }

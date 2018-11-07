@@ -114,7 +114,7 @@ namespace xmlTest
         public void TestRootTag()
         {
             XmlParser parser = LoadParser();
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             using (parser.Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
             {
                 parser.Log.LogMessage("root tag: " + parser.Document.Root.Name.LocalName);
@@ -140,7 +140,7 @@ namespace xmlTest
         public void TestGetParsedData()
         {
             XmlParser parser = LoadParser();
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             bool notEmpty = parser.ParsedData.Count > 0;
             Assert.AreEqual(true, notEmpty);
         }
@@ -149,7 +149,7 @@ namespace xmlTest
         public void TestTagValue()
         {
             XmlParser parser = LoadParser();
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             List<Tag> listTag = parser.ParsedData["ime"];
             Assert.AreEqual("Rok", listTag.First().TagValue);
         }
@@ -158,7 +158,7 @@ namespace xmlTest
         public void TestTagName()
         {
             XmlParser parser = LoadParser();
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             List<Tag> listTag = parser.ParsedData["ime"];
             Assert.AreEqual("ime", listTag.First().TagName);
         }
@@ -167,7 +167,7 @@ namespace xmlTest
         public void TestTagAttribute()
         {
             XmlParser parser = LoadParser();
-            parser.ParseData();
+            parser.ParseData(LoggerType.DEBUG);
             List<Tag> listTag = parser.ParsedData["ime"];
             Assert.AreEqual("testAtt", listTag.First().Attributes.First().Value);
         }

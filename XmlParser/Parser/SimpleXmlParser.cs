@@ -17,9 +17,9 @@ namespace MetronikParser.Parser
         /// <summary>
         /// Get all leaf tags, with no need of providing Config instance.
         /// </summary>
-        public override void ParseData()
+        public override void ParseData(LoggerType type)
         {
-            using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            using (Log = LoggerFactory.GetLogger(type))
             {
                 base.ParseDocument();
                 ParsedData = getTags();
@@ -45,7 +45,7 @@ namespace MetronikParser.Parser
                     tags.Add(name, new List<Tag> { tag });
             }
 
-            LogMessage("Finished finding node paths. Tags count: " + tags.Count + " Nodes count: " + listOfNodes.Count);
+            LogMessage($"Finished finding node paths. Tags count: {tags.Count} Nodes count: {listOfNodes.Count}");
             return tags;
         }
 

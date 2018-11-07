@@ -13,8 +13,8 @@ namespace MetronikParser.Logger
     public enum LogSeverity
     {
         MESSAGE = 1,
-        WARNING,
-        ERROR
+        WARNING = 2,
+        ERROR   = 3
     }
 
     /// <summary>

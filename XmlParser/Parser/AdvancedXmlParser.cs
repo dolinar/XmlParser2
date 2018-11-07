@@ -11,8 +11,7 @@ using System.Xml.Linq;
 namespace MetronikParser.Parser
 {
     public class AdvancedXmlParser : XmlParser
-    {
-        private string _path = null;
+    {     
 
         public AdvancedXmlParser()
         {
@@ -21,20 +20,19 @@ namespace MetronikParser.Parser
         /// <summary>
         /// Reads required paths from Config instance and parses XDocument elements from each path
         /// </summary>
-        public override void ParseData()
+        public override void ParseData(LoggerType type)
         {
-            using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            using (Log = LoggerFactory.GetLogger(type))
             {
                 base.ParseDocument();
 
                 List<Tag> tags;
-                LogMessage("retireving data from Config");
+                LogMessage("retireving data from Config");               
                 foreach (var path in ParserConfig.Paths)
-                {
-                    _path = path;
+                {                   
                     LogMessage("retireving path from config paths");
-                    tags = getTagsListFromPath();
-                    checkIfTagsExistAndInsert(tags);
+                    tags = getTagsListFromPath(path);
+                    checkIfTagsExistAndInsert(tags,path);
                 }
             }
         }
@@ -44,25 +42,27 @@ namespace MetronikParser.Parser
         /// Check if there are elements present in given list and act accordingly.
         /// </summary>
         /// <param name="tags">List of tags.</param>
-        private void checkIfTagsExistAndInsert(List<Tag> tags)
-        {
-            if (tags.Count != 0)
-                ParsedData[tags.First().TagName] = tags;
-            else
-                LogError("No tags found for provided path: " + _path);
+        private void checkIfTagsExistAndInsert(List<Tag> tags,string path)
+        {          
+            string tagName = tags?.FirstOrDefault()?.TagName;
+
+            if(tagName is null)
+                LogError($"No tags({tagName}) found for provided path: {path}.");
+            
+            ParsedData[tagName] = tags;             
         }
 
         /// <summary>
         /// Finds ALL XElements, that are found on a given path.
         /// </summary>
         /// <returns></returns>
-        private List<Tag> getTagsListFromPath()
+        private List<Tag> getTagsListFromPath(string path)
         {
             List<Tag> tags = new List<Tag>();
-            var elements = Document.XPathSelectElements(_path);
+            var elements = Document.XPathSelectElements(path);
             if (elements.Count() == 0)
             {
-                LogWarning("No elements founds for given path: " + _path);
+                LogWarning($"No elements founds for given path: {path}");
                 return tags;
             }
             foreach (var element in elements)
@@ -81,7 +81,7 @@ namespace MetronikParser.Parser
             Tag t = new Tag();
             t.SetTagFromElement(element);
 
-            t.SetTagChildren(t, element);
+            t.SetChildren(t, element);
 
             tags.Add(t);
         }

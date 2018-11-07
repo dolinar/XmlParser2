@@ -21,7 +21,7 @@ namespace MetronikParser.Parser
 
         public Dictionary<string, List<Tag>> ParsedData { get; protected set; }
 
-        public abstract void ParseData();
+        public abstract void ParseData(LoggerType type);
 
         public void ParseDocument()
         {
