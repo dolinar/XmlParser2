@@ -21,7 +21,7 @@ namespace MetronikParser.Parser
         {
             using (Log = LoggerFactory.GetLogger(type))
             {
-                base.ParseDocument();
+                base.ParseDocument(type);
                 ParsedData = getTags();
             }
         }

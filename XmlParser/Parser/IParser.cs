@@ -11,7 +11,7 @@ namespace MetronikParser.Parser
 
         Config ParserConfig { get; set; }
 
-        void ParseDocument();
+        void ParseDocument(LoggerType type);
 
         void ParseData(LoggerType type);
     }

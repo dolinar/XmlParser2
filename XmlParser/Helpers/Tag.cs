@@ -41,7 +41,7 @@ namespace MetronikParser.Helpers
             if (element.Elements().Count() == 0)
                 TagValue = element.Value;
             else
-                TagValue = "notLeaf";
+                TagValue = null;
 
             TagPath  = getPath(element);
 
@@ -62,6 +62,7 @@ namespace MetronikParser.Helpers
                 Children[currentTag.TagName].Add(currentTag);
             else
                 Children.Add(currentTag.TagName, new List<Tag> { currentTag });
+
             return currentTag;
         }
 
@@ -80,8 +81,7 @@ namespace MetronikParser.Helpers
         }
 
         /// <summary>
-        /// Add element(tag) children to tha parent element(tag)'s Children property
-        /// The class Tag's AddChild() method also calls function SetTagElement which sets all properties 
+        /// Recursively add Tag children to parent Tag's Children property
         /// </summary>
         /// <param name="rootTag">Tag instance, made of element's properties</param>
         /// <param name="element">Is used to find descendants</param>
@@ -96,7 +96,6 @@ namespace MetronikParser.Helpers
 
         public override string ToString()
         {
-            
             return base.ToString();
         }
     }

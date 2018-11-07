@@ -16,7 +16,7 @@ namespace MetronikParser.Logger
     public class LoggerFactory
     {
         /// <summary>
-        /// get logger by provided enum type
+        /// get logger instance based on provided enum type
         /// </summary>
         /// <param name="type">element of LoggerType enum</param>
         /// <returns>instance of a logger</returns>
@@ -34,7 +34,7 @@ namespace MetronikParser.Logger
         }
 
         /// <summary>
-        /// get logger by provided string
+        /// get logger instance based on provided string
         /// </summary>
         /// <param name="loggerName">string logger name, ie 'debug'</param>
         /// <returns>instance of a logger</returns>

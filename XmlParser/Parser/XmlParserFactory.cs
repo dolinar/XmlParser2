@@ -8,7 +8,6 @@ namespace MetronikParser.Parser
 {
     public class XmlParserFactory : ParserFactory
     {
-
         public override IParser CreateParser(ParserType type)
         {
             switch (type)

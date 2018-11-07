@@ -18,13 +18,13 @@ namespace MetronikParser.Parser
             ParsedData = new Dictionary<string, List<Tag>>();
         }
         /// <summary>
-        /// Reads required paths from Config instance and parses XDocument elements from each path
+        /// Reads paths from Config instance and parses XDocument elements from each path
         /// </summary>
         public override void ParseData(LoggerType type)
         {
             using (Log = LoggerFactory.GetLogger(type))
             {
-                base.ParseDocument();
+                base.ParseDocument(type);
 
                 List<Tag> tags;
                 LogMessage("retireving data from Config");               
@@ -39,23 +39,24 @@ namespace MetronikParser.Parser
 
 
         /// <summary>
-        /// Check if there are elements present in given list and act accordingly.
+        /// Check if there are elements present in the given Tag list, if they are, add them to main data structure.
         /// </summary>
         /// <param name="tags">List of tags.</param>
         private void checkIfTagsExistAndInsert(List<Tag> tags,string path)
         {          
             string tagName = tags?.FirstOrDefault()?.TagName;
 
-            if(tagName is null)
-                LogError($"No tags({tagName}) found for provided path: {path}.");
-            
-            ParsedData[tagName] = tags;             
+            if(!String.IsNullOrEmpty(tagName))
+                ParsedData[tagName] = tags;
+
+            LogError($"No tags({tagName}) found for provided path: {path}.");          
         }
 
         /// <summary>
-        /// Finds ALL XElements, that are found on a given path.
+        /// Finds all XElements objects that are found for a given path, 
+        /// makes instance of Tag for each element and adds it to List
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List of Tags that were found for a given path</returns>
         private List<Tag> getTagsListFromPath(string path)
         {
             List<Tag> tags = new List<Tag>();
@@ -66,22 +67,22 @@ namespace MetronikParser.Parser
                 return tags;
             }
             foreach (var element in elements)
-                addTagFromElement(tags, element);
+                addTagToListFromElement(tags, element);
 
             return tags;
         }
 
         /// <summary>
-        /// Adds a Tag instance, made of XElement, to tags list.
+        /// Populates Tag instance with values from XElement and adds it to provided tags list.
         /// </summary>
-        /// <param name="tags">Tags list</param>
+        /// <param name="tags">List for newly created tag to append to.</param>
         /// <param name="element">Is used to create a Tag instance</param>
-        private void addTagFromElement(List<Tag> tags, XElement element)
+        private void addTagToListFromElement(List<Tag> tags, XElement element)
         {
             Tag t = new Tag();
             t.SetTagFromElement(element);
 
-            t.SetChildren(t, element);
+            t.SetChildren(t, element); // recursive
 
             tags.Add(t);
         }

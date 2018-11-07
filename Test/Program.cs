@@ -86,7 +86,7 @@ namespace Test
                     {
                         Console.WriteLine("\t\tAttribute '" + attPair.Key + "' with value '" + attPair.Value + "'");
                     }
-                    if (t.TagValue.Equals("notLeaf"))
+                    if (t.TagValue == null)
                     {
                         foreach (KeyValuePair<string, List<Tag>> pair2 in t.Children)
                         {

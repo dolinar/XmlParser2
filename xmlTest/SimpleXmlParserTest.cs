@@ -21,7 +21,7 @@ namespace xmlTest
         {
             MetronikParser.Parser.XmlParser parser = new SimpleXmlParser();
             parser.Document = null;
-            parser.ParseDocument();
+            parser.ParseDocument(LoggerType.DEBUG);
 
         }
         
@@ -79,7 +79,7 @@ namespace xmlTest
             var doc = XDocument.Load("<xml></xml>");
 
             parser.Document = doc;
-            parser.ParseDocument();
+            parser.ParseDocument(LoggerType.DEBUG);
         }
 
         [TestMethod]
@@ -91,7 +91,7 @@ namespace xmlTest
             var doc = XDocument.Load(@"<xml att=""123"" att=""1234""></xml>");
 
             parser.Document = doc;
-            parser.ParseDocument();
+            parser.ParseDocument(LoggerType.DEBUG);
         }
 
         private XmlParser LoadParser()

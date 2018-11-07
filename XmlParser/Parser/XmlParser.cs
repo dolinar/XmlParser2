@@ -23,11 +23,10 @@ namespace MetronikParser.Parser
 
         public abstract void ParseData(LoggerType type);
 
-        public void ParseDocument()
+        public void ParseDocument(LoggerType type)
         {
-            using (Log = LoggerFactory.GetLogger(LoggerType.DEBUG))
+            using (Log = LoggerFactory.GetLogger(type))
             {
-                // make sure the generated XML document is not null
                 if (Document == null)
                     throw new ArgumentNullException();
 

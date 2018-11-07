@@ -8,7 +8,8 @@ namespace MetronikParser.Parser
     {
         public enum ParserType
         {
-            SIMPLEXMLPARSER
+            SIMPLEXMLPARSER,
+            ADVANCEDXMLPARSER
         }
         public abstract IParser CreateParser(ParserType type);
 
