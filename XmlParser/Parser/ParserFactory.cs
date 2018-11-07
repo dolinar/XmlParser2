@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MetronikParser.Parser
+﻿namespace MetronikParser.Parser
 {
     public abstract class ParserFactory
     {

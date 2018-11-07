@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Xml;
-using MetronikParser.Logger;
+﻿using MetronikParser.Logger;
 using MetronikParser.Helpers;
 
 namespace MetronikParser.Parser
